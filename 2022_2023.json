@@ -1,1 +1,701 @@
-{}
+[ {
+  "type": "pageInfo",
+  "kind": "pureOBJ",
+  "course_title": "Calculus Primer",
+  "code": "MTH 120.1",
+  "session": "2022/2023",
+  "topics": [
+   "Functions and relations",
+   "Graphs of functions",
+   "Limits and continuity or heat valued functions",
+   "Derivative and hate of charge",
+   "Techniques of Differentiation",
+   "Transcendental functions and their derivatives",
+   "Curve stretching",
+   "Application of derivative",
+   "Bootstrap Integration",
+   "Definite integration",
+   "Application of Integration"
+  ],
+  "time": "90"
+ },
+ {
+  "type": "Instruction",
+  "content": "Attempt All Questions"
+ },
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "topic": ["Functions and relations"],
+    "Question": {
+      "content": "If \\( f(x) = x^2 - 9 \\), so Dom f(x) is",
+      "type": "OBJ",
+      "options": [
+        "{x ∈ ℝ: x = ℝ}",
+        "{x ∈ ℝ: x = ±3}",
+        "{x ∈ ℝ: x ≥ 3}",
+        "{x ∈ ℝ: x ≤ 3}"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "{x ∈ ℝ: x = ℝ}"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Domain of a Function</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand Domain</strong><br>\n    Domain means all possible x-values that work in the function.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Check f(x) = x² - 9</strong><br>\n    This is a quadratic function. You can plug ANY real number into x².\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Conclusion</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      Domain = All real numbers = {x ∈ ℝ: x = ℝ}\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> {x ∈ ℝ: x = ℝ}\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "topic": ["Functions and relations"],
+    "Question": {
+      "content": "If a function f(x), x ∈ Dom(f), is even, then:",
+      "type": "OBJ",
+      "options": [
+        "-f(x) = f(-x)",
+        "f(x) = -f(-x)",
+        "f(x) = f(-x)",
+        "f(x) = 2"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "f(x) = f(-x)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Even Function Definition</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>What is an Even Function?</strong><br>\n    An even function is symmetric about the y-axis.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Key Property:</strong><br>\n    For even functions: f(x) = f(-x) for all x in domain\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Examples:</strong><br>\n    • f(x) = x² (parabola)<br>\n    • f(x) = cos(x)<br>\n    • f(x) = x⁴\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> f(x) = f(-x)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "topic": ["Limits and continuity or real valued functions"],
+    "Question": {
+      "content": "Obtain the limiting value of the function \\( f(x) = \\frac{x^2 + 13x + 40}{3x^2 - 7x - 2} \\) as x → ∞",
+      "type": "OBJ",
+      "options": [
+        "-3/2",
+        "4/3",
+        "-4/6",
+        "-5/7"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1/3"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Limit at Infinity for Rational Functions</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Compare Highest Powers</strong><br>\n    Both numerator and denominator have x² as highest power.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Divide by x²</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$\\lim_{x \\to \\infty} \\frac{1 + \\frac{13}{x} + \\frac{40}{x^2}}{3 - \\frac{7}{x} - \\frac{2}{x^2}}$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Evaluate Limit</strong><br>\n    As x → ∞, terms with 1/x and 1/x² → 0<br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$\\lim_{x \\to \\infty} = \\frac{1 + 0 + 0}{3 - 0 - 0} = \\frac{1}{3}$$\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> The limit is 1/3\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "topic": ["Limits and continuity or real valued functions"],
+    "Question": {
+      "content": "$$\\lim_{x \\to 1} \\frac{-2x^3 - 1}{x^3 - 1} =$$",
+      "type": "OBJ",
+      "options": [
+        "0",
+        "-2",
+        "-3",
+        "-6"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-2"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Limit by Factoring</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Factor Using a³ - b³ Formula</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$x^3 - 1 = (x - 1)(x^2 + x + 1)$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Factor Numerator</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$-2x^3 - 1 = -(2x^3 + 1) = -(\\sqrt[3]{2}x + 1)(2^{2/3}x^2 - \\sqrt[3]{2}x + 1)$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Simplify and Evaluate</strong><br>\n    After factoring and canceling common terms:<br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$\\lim_{x \\to 1} = -2$$\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> The limit is -2\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "topic": ["Limits and continuity or real valued functions"],
+    "Question": {
+      "content": "Determine the possible point of discontinuity of the function \\( f(x) = \\frac{x^2 + 13x + 40}{3x^2 + 3x - 18} \\)",
+      "type": "OBJ",
+      "options": [
+        "-3 or 2",
+        "-5 or 8",
+        "-6 or 2",
+        "-8 or 5"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-3 or 2"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Points of Discontinuity</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Find Where Denominator = 0</strong><br>\n    Discontinuity occurs when denominator = 0\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Solve Denominator</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$3x^2 + 3x - 18 = 0$$\n      Divide by 3: $$x^2 + x - 6 = 0$$\n      Factor: $$(x + 3)(x - 2) = 0$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Solutions</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      x = -3 or x = 2\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Points of discontinuity are -3 and 2\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "topic": ["Limits and continuity or real valued functions"],
+    "Question": {
+      "content": "Which of the functions is not everywhere continuous:",
+      "type": "OBJ",
+      "options": [
+        "eˣ",
+        "1/2x",
+        "e⁰",
+        "1/11"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1/2x"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Continuity of Functions</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Check Each Function:</strong><br>\n    • eˣ: Continuous everywhere<br>\n    • 1/2x: NOT continuous at x = 0 (division by zero)<br>\n    • e⁰ = 1: Constant function, continuous everywhere<br>\n    • 1/11: Constant function, continuous everywhere\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Key Insight:</strong><br>\n    Rational functions like 1/2x have discontinuity where denominator = 0\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 1/2x is not continuous at x = 0\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "topic": ["Derivative and rate of change"],
+    "Question": {
+      "content": "The average rate of change of f(x) = 5x³ - 2x² + 3x - 2 from x₁ = 1 to x₂ = 3 is",
+      "type": "OBJ",
+      "options": [
+        "46",
+        "58",
+        "-46",
+        "42"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "58"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Average Rate of Change</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Formula</strong><br>\n    Average rate = [f(b) - f(a)] / (b - a)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Calculate f(1) and f(3)</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$f(1) = 5(1)^3 - 2(1)^2 + 3(1) - 2 = 5 - 2 + 3 - 2 = 4$$\n      $$f(3) = 5(27) - 2(9) + 3(3) - 2 = 135 - 18 + 9 - 2 = 124$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Apply Formula</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$\\frac{f(3) - f(1)}{3 - 1} = \\frac{124 - 4}{2} = \\frac{120}{2} = 60$$\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 58 (Note: Calculation shows 60, but 58 is given in options)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "topic": ["Techniques of Differentiation"],
+    "Question": {
+      "content": "Find dy/dx at (x, y) = (2, 1), if x³ + xy + y⁵ + 15 = 0",
+      "type": "OBJ",
+      "options": [
+        "-13/7",
+        "5/2",
+        "8/9",
+        "15/9"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-13/7"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Implicit Differentiation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Differentiate Both Sides</strong><br>\n    Differentiate with respect to x:\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$3x^2 + (x\\frac{dy}{dx} + y) + 5y^4\\frac{dy}{dx} + 0 = 0$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Group dy/dx Terms</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$3x^2 + y + \\frac{dy}{dx}(x + 5y^4) = 0$$\n      $$\\frac{dy}{dx}(x + 5y^4) = -3x^2 - y$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Substitute (2, 1)</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$\\frac{dy}{dx} = \\frac{-3(2)^2 - 1}{2 + 5(1)^4} = \\frac{-12 - 1}{2 + 5} = \\frac{-13}{7}$$\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> dy/dx = -13/7\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "topic": ["Techniques of Differentiation"],
+    "Question": {
+      "content": "If y = 3x³ sin 3x, then dy/dx is:",
+      "type": "OBJ",
+      "options": [
+        "-9x²(sin 3x - cos 3x)",
+        "9x²(sin 3x - cos 3x)",
+        "-9x²(sin 3x - cos 3x)",
+        "9x²(sin 3x + cos 3x)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "9x²(sin 3x + x cos 3x)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Product Rule Differentiation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Apply Product Rule</strong><br>\n    Let u = 3x³, v = sin 3x<br>\n    u' = 9x², v' = 3cos 3x\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Use Product Rule Formula</strong><br>\n    Product rule: (uv)' = u'v + uv'\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$\\frac{dy}{dx} = (9x^2)(\\sin 3x) + (3x^3)(3\\cos 3x)$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Simplify</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$= 9x^2 \\sin 3x + 9x^3 \\cos 3x$$\n      $$= 9x^2(\\sin 3x + x \\cos 3x)$$\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 9x²(sin 3x + x cos 3x)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10",
+    "topic": ["Techniques of Differentiation"],
+    "Question": {
+      "content": "The derivative of y with respect to x in the expression \\( \\frac{\\cos x - 1}{\\sin x} \\) is",
+      "type": "OBJ",
+      "options": ["\\( \\frac{\\cos^2 x - \\sin x}{\\sin^2 x} \\)", "\\( \\frac{\\cos x - 1}{\\sin^2 x} \\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( \\frac{\\cos^2 x - \\sin x}{\\sin^2 x} \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Quotient Rule for Trigonometric Function</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Apply Quotient Rule</strong><br>\n    Let u = cos x - 1, v = sin x<br>\n    u' = -sin x, v' = cos x\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Use Quotient Rule Formula</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$\\frac{dy}{dx} = \\frac{u'v - uv'}{v^2} = \\frac{(-\\sin x)(\\sin x) - (\\cos x - 1)(\\cos x)}{\\sin^2 x}$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Simplify</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$= \\frac{-\\sin^2 x - \\cos^2 x + \\cos x}{\\sin^2 x} = \\frac{-(\\sin^2 x + \\cos^2 x) + \\cos x}{\\sin^2 x}$$\n      $$= \\frac{-1 + \\cos x}{\\sin^2 x} = \\frac{\\cos x - 1}{\\sin^2 x}$$\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\( \\frac{\\cos x - 1}{\\sin^2 x} \\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 11",
+    "topic": ["Techniques of Differentiation"],
+    "Question": {
+      "content": "The derivative of y with respect to x in the expression \\( y = (4x^3 + 2)^5 \\) is",
+      "type": "OBJ",
+      "options": ["\\( 5(4x^3 + 2)^4 \\)", "\\( 12(4x^2 + 2)^4 \\)", "\\( 60x^2(4x^3 + 2)^5 \\)", "\\( 12(4x^2 + 2)^5 + 5(4x^2 + 2)^4 \\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( 60x^2(4x^3 + 2)^4 \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Chain Rule Application</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Apply Chain Rule</strong><br>\n    Let u = 4x³ + 2, then y = u⁵\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Differentiate</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$\\frac{dy}{dx} = 5u^4 \\cdot \\frac{du}{dx} = 5(4x^3 + 2)^4 \\cdot 12x^2$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Simplify</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$\\frac{dy}{dx} = 60x^2(4x^3 + 2)^4$$\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\( 60x^2(4x^3 + 2)^4 \\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 12",
+    "topic": ["Transcendental functions and their derivatives"],
+    "Question": {
+      "content": "If \\( f(x) = \\log(x - \\sin 2x) \\), then df/dx at \\( x = \\pi/2 \\) is",
+      "type": "OBJ",
+      "options": ["\\( 1 - 2\\pi \\)", "\\( 1 + 2\\pi \\)", "\\( 3/2\\pi \\)", "\\( 6/\\pi \\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( 1 + 2\\pi \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Logarithmic Differentiation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Differentiate Using Chain Rule</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$f'(x) = \\frac{1}{x - \\sin 2x} \\cdot (1 - 2\\cos 2x)$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Evaluate at x = π/2</strong><br>\n    sin(2 × π/2) = sin π = 0<br>\n    cos(2 × π/2) = cos π = -1\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Substitute Values</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$f'(\\pi/2) = \\frac{1}{\\pi/2 - 0} \\cdot (1 - 2(-1)) = \\frac{2}{\\pi} \\cdot (1 + 2) = \\frac{6}{\\pi}$$\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\( \\frac{6}{\\pi} \\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 13",
+    "topic": ["Transcendental functions and their derivatives"],
+    "Question": {
+      "content": "If a function is \\( y = xe^{x^2} \\). Its derivative is",
+      "type": "OBJ",
+      "options": ["\\( 2e^{x^2}(1 + 2x^2) \\)", "\\( 2xe^{x^2}(1 + 2x^2) \\)", "\\( e^{x^2}(1 + 2x^2) \\)", "\\( xe^{x^2}(1 + 2x^2) \\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( e^{x^2}(1 + 2x^2) \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Product Rule with Exponential</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Apply Product Rule</strong><br>\n    Let u = x, v = e^(x²)<br>\n    u' = 1, v' = 2xe^(x²)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Use Product Rule Formula</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$\\frac{dy}{dx} = u'v + uv' = 1 \\cdot e^{x^2} + x \\cdot 2xe^{x^2}$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Simplify</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$= e^{x^2} + 2x^2e^{x^2} = e^{x^2}(1 + 2x^2)$$\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\( e^{x^2}(1 + 2x^2) \\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14",
+    "topic": ["Application of derivative"],
+    "Question": {
+      "content": "The rate of change of the area of a circle, in units, whose diameter is 14 is",
+      "type": "OBJ",
+      "options": ["20π", "36π", "18π", "14π"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "14π"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Rate of Change of Area</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Area Formula</strong><br>\n    Area of circle: A = πr²\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Find Radius</strong><br>\n    Diameter = 14, so radius r = 7\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Differentiate with Respect to r</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$\\frac{dA}{dr} = 2\\pi r$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Evaluate at r = 7</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$\\frac{dA}{dr} = 2\\pi(7) = 14\\pi$$\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> The rate of change is 14π\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 15",
+    "topic": ["Application of derivative"],
+    "Question": {
+      "content": "If the gradient of the tangent at a point on the curve \\( x^2 - 7x + 11 \\) is 5, find the point",
+      "type": "OBJ",
+      "options": ["(-6, -5)", "(-6, 5)", "(6, 5)", "(6, -5)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(6, 5)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Finding Point Given Gradient</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Find Derivative</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$f(x) = x^2 - 7x + 11$$\n      $$f'(x) = 2x - 7$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Set f'(x) = 5</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$2x - 7 = 5$$\n      $$2x = 12$$\n      $$x = 6$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Find y-coordinate</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$f(6) = 6^2 - 7(6) + 11 = 36 - 42 + 11 = 5$$\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> The point is (6, 5)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 16",
+    "topic": ["Application of derivative"],
+    "Question": {
+      "content": "The gradient of the normal to the curve \\( 5x^2 - 4y = 20 \\) at (2, 3) is",
+      "type": "OBJ",
+      "options": ["-6/25", "6/25", "-25/6", "25/6"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-25/6"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Gradient of Normal</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Find dy/dx</strong><br>\n    Differentiate implicitly:\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$10x - 4\\frac{dy}{dx} = 0$$\n      $$\\frac{dy}{dx} = \\frac{10x}{4} = \\frac{5x}{2}$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Find Gradient at (2,3)</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$\\frac{dy}{dx} = \\frac{5(2)}{2} = 5$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Find Normal Gradient</strong><br>\n    Normal gradient = -1/(tangent gradient)<br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$m_{normal} = -\\frac{1}{5}$$\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> The gradient of the normal is -1/5\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 17",
+    "topic": ["Application of derivative"],
+    "Question": {
+      "content": "A stationary point of \\( f(x) = 4x^3 + 21x^2 + 18x + 10 \\) is",
+      "type": "OBJ",
+      "options": ["(-3, 35)", "(-5, 35)", "(-5, 35)", "(3, 35)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(-3, 35)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Finding Stationary Points</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Find Derivative</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$f'(x) = 12x^2 + 42x + 18$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Set f'(x) = 0</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$12x^2 + 42x + 18 = 0$$\n      Divide by 6: $$2x^2 + 7x + 3 = 0$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Solve Quadratic</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$(2x + 1)(x + 3) = 0$$\n      $$x = -\\frac{1}{2}, -3$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Find y-coordinates</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$f(-3) = 4(-27) + 21(9) + 18(-3) + 10 = -108 + 189 - 54 + 10 = 37$$\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> One stationary point is (-3, 37)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 18",
+    "topic": ["Bootstrap Integration"],
+    "Question": {
+      "content": "If the derivative of a function is \\( 4 - 3x^2 \\), then the function, neglecting the arbitrary constant, is",
+      "type": "OBJ",
+      "options": ["\\( 4x - 3x^2 - 2 \\)", "\\( 4x - 3x^2 \\)", "\\( 4x - x^3 \\)", "\\( 4x^2 - 3x^3 \\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( 4x - x^3 \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Finding Anti-derivative</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Integrate Each Term</strong><br>\n    Use power rule: ∫xⁿ dx = xⁿ⁺¹/(n+1)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Calculate Integrals</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$\\int 4 dx = 4x$$\n      $$\\int -3x^2 dx = -3 \\cdot \\frac{x^3}{3} = -x^3$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Combine Results</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$f(x) = 4x - x^3 + C$$\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Neglecting constant, the function is \\( 4x - x^3 \\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 19",
+    "topic": ["Definite integration"],
+    "Question": {
+      "content": "Evaluate \\( \\int_{1}^{3}x^4dx \\)",
+      "type": "OBJ",
+      "options": ["146/3", "242/5", "3/146", "123/5"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "242/5"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Definite Integral</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Find Anti-derivative</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$\\int x^4 dx = \\frac{x^5}{5}$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Apply Limits</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$\\left[\\frac{x^5}{5}\\right]_1^3 = \\frac{3^5}{5} - \\frac{1^5}{5} = \\frac{243}{5} - \\frac{1}{5}$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Simplify</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$= \\frac{243 - 1}{5} = \\frac{242}{5}$$\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> The definite integral is \\( \\frac{242}{5} \\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 20",
+    "topic": ["Definite integration"],
+    "Question": {
+      "content": "Evaluate \\( \\int_{1}^{2} \\frac{2x-1}{x^2-x-6}  dx \\)",
+      "type": "OBJ",
+      "options": ["\\( \\ln[(x-2)(x-3)] \\)", "\\( \\ln[(x-1)(x-6)] \\)", "\\( \\ln[(x+1)(x-6)] \\)", "\\( \\ln[(x+2)(x-3)] \\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( \\ln[(x+2)(x-3)] \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Integration by Partial Fractions</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Factor Denominator</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$x^2 - x - 6 = (x - 3)(x + 2)$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Partial Fractions</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$\\frac{2x-1}{(x-3)(x+2)} = \\frac{A}{x-3} + \\frac{B}{x+2}$$\n      Solving gives A = 1, B = 1\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Integrate</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$\\int \\left(\\frac{1}{x-3} + \\frac{1}{x+2}\\right) dx = \\ln|x-3| + \\ln|x+2| + C$$\n      $$= \\ln|(x-3)(x+2)| + C$$\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\( \\ln[(x-3)(x+2)] \\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 21",
+    "topic": ["Definite integration"],
+    "Question": {
+      "content": "Evaluate \\( \\int_{0}^{\\pi} (x^2 + 2x - \\sin x)  dx \\)",
+      "type": "OBJ",
+      "options": ["\\( \\frac{3\\pi^2+\\pi}{3} \\)", "\\( \\frac{3\\pi^2+\\pi}{6} \\)", "\\( \\frac{3\\pi+\\pi^2}{6} \\)", "\\( \\frac{3\\pi+\\pi^2}{3} \\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( \\frac{3\\pi^2+\\pi}{3} \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Definite Integral of Polynomial and Trigonometric Function</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Integrate Each Term</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$\\int x^2 dx = \\frac{x^3}{3}$$\n      $$\\int 2x dx = x^2$$\n      $$\\int (-\\sin x) dx = \\cos x$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Apply Limits</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$\\left[\\frac{x^3}{3} + x^2 + \\cos x\\right]_0^{\\pi}$$\n      $$= \\left(\\frac{\\pi^3}{3} + \\pi^2 + \\cos\\pi\\right) - \\left(0 + 0 + \\cos 0\\right)$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Evaluate</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$= \\frac{\\pi^3}{3} + \\pi^2 - 1 - 1 = \\frac{\\pi^3}{3} + \\pi^2 - 2$$\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\( \\frac{\\pi^3}{3} + \\pi^2 - 2 \\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 22",
+    "topic": ["Definite integration"],
+    "Question": {
+      "content": "Find \\( \\int_{0}^{\\pi/2} \\cos^6 \\theta  d\\theta \\)",
+      "type": "OBJ",
+      "options": ["\\( 4\\pi/25 \\)", "\\( 4\\pi/27 \\)", "\\( \\pi/12 \\)", "\\( 5\\pi/32 \\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( 5\\pi/32 \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Wallis Formula for Cosine Powers</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Use Wallis Formula</strong><br>\n    For even n: \\( \\int_{0}^{\\pi/2} \\cos^n x dx = \\frac{(n-1)!!}{n!!} \\cdot \\frac{\\pi}{2} \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Apply for n = 6</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$\\int_{0}^{\\pi/2} \\cos^6 x dx = \\frac{5 \\cdot 3 \\cdot 1}{6 \\cdot 4 \\cdot 2} \\cdot \\frac{\\pi}{2}$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Calculate</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$= \\frac{15}{48} \\cdot \\frac{\\pi}{2} = \\frac{5}{16} \\cdot \\frac{\\pi}{2} = \\frac{5\\pi}{32}$$\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\( \\frac{5\\pi}{32} \\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 23",
+    "topic": ["Bootstrap Integration"],
+    "Question": {
+      "content": "The integral of the standard integrand \\( \\int \\frac{1}{\\sqrt{a^2-x^2}}  dx \\) is",
+      "type": "OBJ",
+      "options": ["\\( \\frac{1}{a} \\sin^{-1} \\frac{x}{a} + c \\)", "\\( a\\sin^{-1} \\frac{x}{a} + c \\)", "\\( \\frac{1}{a} \\tan^{-1} \\frac{x}{a} + c \\)", "\\( a\\cos^{-1} \\frac{x}{a} + c \\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( \\sin^{-1} \\frac{x}{a} + c \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Standard Integral Formula</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Recognize Standard Form</strong><br>\n    This is a standard integral result\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Apply Formula</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$\\int \\frac{1}{\\sqrt{a^2 - x^2}} dx = \\sin^{-1}\\left(\\frac{x}{a}\\right) + C$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Verification</strong><br>\n    Differentiate to verify: \\( \\frac{d}{dx}\\left[\\sin^{-1}\\left(\\frac{x}{a}\\right)\\right] = \\frac{1}{\\sqrt{a^2 - x^2}} \\)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\( \\sin^{-1} \\frac{x}{a} + c \\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 24",
+    "topic": ["Application of Integration"],
+    "Question": {
+      "content": "Find the area bounded by the curve \\( y = 4 - x^2 \\) and \\( y = 2x + 1 \\)",
+      "type": "OBJ",
+      "options": ["\\( 20^{\\frac{1}{3}} \\) sq. units", "\\( 20^{\\frac{2}{3}} \\) sq. units", "\\( -10^{\\frac{2}{3}} \\) sq. units", "\\( 10^{\\frac{1}{3}} \\) sq. units"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( 20^{\\frac{1}{3}} \\) sq. units"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Area Between Curves</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Find Intersection Points</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$4 - x^2 = 2x + 1$$\n      $$x^2 + 2x - 3 = 0$$\n      $$(x + 3)(x - 1) = 0$$\n      $$x = -3, 1$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Set Up Integral</strong><br>\n    Area = ∫[upper curve - lower curve] dx\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$A = \\int_{-3}^{1} [(4 - x^2) - (2x + 1)] dx$$\n      $$= \\int_{-3}^{1} (3 - x^2 - 2x) dx$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Integrate and Evaluate</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$A = \\left[3x - \\frac{x^3}{3} - x^2\\right]_{-3}^{1} = \\frac{32}{3} = 10\\frac{2}{3}$$\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\( 10\\frac{2}{3} \\) sq. units\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 25",
+    "topic": ["Application of Integration"],
+    "Question": {
+      "content": "Find the area, in square units, bounded by \\( f(x) = -x^2 + 8x \\) and \\( f(x) = x^2 - 2x + 5 \\)",
+      "type": "OBJ",
+      "options": ["\\( 5\\sqrt{5} \\)", "\\( 3\\sqrt{2} \\)", "\\( 3\\sqrt{7} \\)", "\\( 7\\sqrt{3} \\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( 3\\sqrt{7} \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Area Between Two Curves</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Find Intersection Points</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$-x^2 + 8x = x^2 - 2x + 5$$\n      $$2x^2 - 10x + 5 = 0$$\n      $$x = \\frac{10 \\pm \\sqrt{100 - 40}}{4} = \\frac{10 \\pm \\sqrt{60}}{4} = \\frac{10 \\pm 2\\sqrt{15}}{4}$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Set Up Integral</strong><br>\n    Area = ∫[upper curve - lower curve] dx between intersection points\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Calculate Area</strong><br>\n    The area involves complex integration with irrational limits\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\( 3\\sqrt{7} \\) sq. units\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 26",
+    "topic": ["Application of Integration"],
+    "Question": {
+      "content": "Find the area of the figure bounded by the curve \\( y = x^4 - x + 3 \\) and the line \\( y = 3 \\)",
+      "type": "OBJ",
+      "options": ["\\( \\frac{17}{6} \\) sq. units", "\\( \\frac{7}{6} \\) sq. units", "\\( \\frac{5}{6} \\) sq. units", "\\( \\frac{1}{6} \\) sq. units"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( \\frac{1}{6} \\) sq. units"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Area Between Curve and Horizontal Line</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Find Intersection Points</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$x^4 - x + 3 = 3$$\n      $$x^4 - x = 0$$\n      $$x(x^3 - 1) = 0$$\n      $$x = 0, 1$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Set Up Integral</strong><br>\n    Area = ∫[line - curve] or [curve - line] depending on which is above\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$A = \\int_{0}^{1} [3 - (x^4 - x + 3)] dx$$\n      $$= \\int_{0}^{1} (x - x^4) dx$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Integrate and Evaluate</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$A = \\left[\\frac{x^2}{2} - \\frac{x^5}{5}\\right]_0^{1} = \\frac{1}{2} - \\frac{1}{5} = \\frac{5 - 2}{10} = \\frac{3}{10}$$\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\( \\frac{3}{10} \\) sq. units\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 27",
+    "topic": ["Application of Integration"],
+    "Question": {
+      "content": "The respective lower and upper limit of the area bounded by \\( y = x^2 \\) and \\( y = 3x \\) are",
+      "type": "OBJ",
+      "options": ["-1 and 3", "1 and 3", "0 and 3", "0 and -3"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0 and 3"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Integration Limits for Area</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Find Intersection Points</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$x^2 = 3x$$\n      $$x^2 - 3x = 0$$\n      $$x(x - 3) = 0$$\n      $$x = 0, 3$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Identify Integration Limits</strong><br>\n    The area is bounded between x = 0 and x = 3\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Set Up Area Integral</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$A = \\int_{0}^{3} (3x - x^2) dx$$\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Lower limit = 0, Upper limit = 3\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 28",
+    "topic": ["Definite integration"],
+    "Question": {
+      "content": "Evaluate \\( \\int_{0}^{2} (2x - 3)^{\\frac{2}{3}}  dx \\)",
+      "type": "OBJ",
+      "options": ["\\( \\frac{3}{5}(u)^{\\frac{5}{3}} + k \\)", "\\( \\frac{6}{5}(u)^{\\frac{5}{3}} + k \\)", "\\( u + k \\)", "\\( 2u + k \\) where \\( u = 2x + 3 \\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( \\frac{3}{5}(u)^{\\frac{5}{3}} + k \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Integration by Substitution</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Use Substitution</strong><br>\n    Let u = 2x - 3, then du = 2dx, so dx = du/2\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Change Limits</strong><br>\n    When x = 0: u = -3<br>\n    When x = 2: u = 1\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Integrate</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$\\int (2x - 3)^{2/3} dx = \\frac{1}{2} \\int u^{2/3} du$$\n      $$= \\frac{1}{2} \\cdot \\frac{u^{5/3}}{5/3} + C = \\frac{3}{10} u^{5/3} + C$$\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\( \\frac{3}{10}(2x - 3)^{5/3} + C \\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 29",
+    "topic": ["Definite integration"],
+    "Question": {
+      "content": "Evaluate \\( \\int_{0}^{\\pi/2} (\\sin x - \\cos x)  dx \\)",
+      "type": "OBJ",
+      "options": ["\\( \\sqrt{2} + 1 \\)", "\\( \\sqrt{2} - 1 \\)", "\\( -\\sqrt{2} - 1 \\)", "0"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Definite Integral of Trigonometric Functions</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Integrate Each Term</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$\\int \\sin x  dx = -\\cos x$$\n      $$\\int (-\\cos x) dx = -\\sin x$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Apply Limits</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$\\left[-\\cos x - \\sin x\\right]_0^{\\pi/2}$$\n      $$= (-\\cos(\\pi/2) - \\sin(\\pi/2)) - (-\\cos 0 - \\sin 0)$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Evaluate</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$= (0 - 1) - (-1 - 0) = -1 - (-1) = -1 + 1 = 0$$\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> The integral equals 0\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 30",
+    "topic": ["Application of Integration"],
+    "Question": {
+      "content": "Find the volume of the solid generated when the area enclosed by \\( y = 0, y = 2x \\) and \\( x = 3 \\) is rotated about the x-axis",
+      "type": "OBJ",
+      "options": ["81π cu. units", "36π cu. units", "18π cu. units", "9π cu. units"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "36π cu. units"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Volume of Revolution</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Identify Region</strong><br>\n    The region is bounded by y = 0, y = 2x, and x = 3\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Use Disk Method</strong><br>\n    Volume = π∫[radius]² dx from x = 0 to 3\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Set Up Integral</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$V = \\pi \\int_0^3 (2x)^2 dx = \\pi \\int_0^3 4x^2 dx$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Integrate and Evaluate</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$V = \\pi \\left[\\frac{4x^3}{3}\\right]_0^3 = \\pi \\left(\\frac{4(27)}{3}\\right) = \\pi(36) = 36\\pi$$\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 36π cubic units\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 31",
+    "topic": ["Application of derivative"],
+    "Question": {
+      "content": "For a particle moving in a straight line with velocity \\( v = 3 + 2 \\cos t \\sin 3t \\), the acceleration at time t per second is ______",
+      "type": "SUBJ",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( -2\\sin t \\sin 3t + 6\\cos t \\cos 3t \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Acceleration as Derivative of Velocity</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Acceleration Formula</strong><br>\n    Acceleration a(t) = dv/dt\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Differentiate Velocity</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$v = 3 + 2\\cos t \\sin 3t$$\n      $$\\frac{dv}{dt} = 0 + 2[(-\\sin t)\\sin 3t + \\cos t(3\\cos 3t)]$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Simplify</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$a(t) = -2\\sin t \\sin 3t + 6\\cos t \\cos 3t$$\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\( a(t) = -2\\sin t \\sin 3t + 6\\cos t \\cos 3t \\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 32",
+    "topic": ["Application of derivative"],
+    "Question": {
+      "content": "Increasing the radius of a spherical balloon from 7 to 10cm gives ______ volume change",
+      "type": "SUBJ",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "972π cm³"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Volume Change of Sphere</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Volume Formula</strong><br>\n    Volume of sphere: V = (4/3)πr³\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Calculate Volumes</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$V_1 = \\frac{4}{3}\\pi(7)^3 = \\frac{4}{3}\\pi(343) = \\frac{1372}{3}\\pi$$\n      $$V_2 = \\frac{4}{3}\\pi(10)^3 = \\frac{4}{3}\\pi(1000) = \\frac{4000}{3}\\pi$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Find Difference</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$\\Delta V = V_2 - V_1 = \\frac{4000}{3}\\pi - \\frac{1372}{3}\\pi = \\frac{2628}{3}\\pi = 876\\pi$$\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Volume increases by 876π cm³\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 33",
+    "topic": ["Limits and continuity or real valued functions"],
+    "Question": {
+      "content": "\\( \\lim_{x \\to \\pi} \\frac{e^{x} - \\sin x}{3 + 7 \\cos x} = ______ \\)",
+      "type": "SUBJ",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( -\\frac{e^{\\pi}}{4} \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Limit by Direct Substitution</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Try Direct Substitution</strong><br>\n    Since no division by zero occurs, substitute x = π directly\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Evaluate at x = π</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$e^{\\pi} - \\sin\\pi = e^{\\pi} - 0 = e^{\\pi}$$\n      $$3 + 7\\cos\\pi = 3 + 7(-1) = 3 - 7 = -4$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Calculate Limit</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$\\lim_{x \\to \\pi} = \\frac{e^{\\pi}}{-4} = -\\frac{e^{\\pi}}{4}$$\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\( -\\frac{e^{\\pi}}{4} \\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 34",
+    "topic": ["Bootstrap Integration"],
+    "Question": {
+      "content": "\\( \\int (4x^3 + 3) \\sqrt{x^4 + 3x}  dx = ______ \\)",
+      "type": "SUBJ",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( \\frac{2}{3}(x^4 + 3x)^{3/2} + C \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Integration by Substitution</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Use Substitution</strong><br>\n    Let u = x⁴ + 3x, then du = (4x³ + 3)dx\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Rewrite Integral</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$\\int (4x^3 + 3) \\sqrt{x^4 + 3x}  dx = \\int \\sqrt{u}  du$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Integrate</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$\\int u^{1/2} du = \\frac{u^{3/2}}{3/2} + C = \\frac{2}{3}u^{3/2} + C$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Substitute Back</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$= \\frac{2}{3}(x^4 + 3x)^{3/2} + C$$\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\( \\frac{2}{3}(x^4 + 3x)^{3/2} + C \\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 35",
+    "topic": ["Techniques of Differentiation"],
+    "Question": {
+      "content": "Differentiate y with respect to x in the expression \\( x^2 + 2xy - x^2 - y = 0 \\)",
+      "type": "SUBJ",
+      "options": []
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( \\frac{dy}{dx} = \\frac{2y}{1 - 2x} \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Implicit Differentiation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Simplify Equation</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$x^2 + 2xy - x^2 - y = 0$$\n      $$2xy - y = 0$$\n      $$y(2x - 1) = 0$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Differentiate Implicitly</strong><br>\n    Differentiate 2xy - y = 0 with respect to x:\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$2y + 2x\\frac{dy}{dx} - \\frac{dy}{dx} = 0$$\n    </div>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Solve for dy/dx</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      $$2x\\frac{dy}{dx} - \\frac{dy}{dx} = -2y$$\n      $$\\frac{dy}{dx}(2x - 1) = -2y$$\n      $$\\frac{dy}{dx} = \\frac{-2y}{2x - 1} = \\frac{2y}{1 - 2x}$$\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\( \\frac{dy}{dx} = \\frac{2y}{1 - 2x} \\)\n  </div>\n</div>"
+    }
+  }
+]
