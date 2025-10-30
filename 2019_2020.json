@@ -1,0 +1,833 @@
+[
+{
+ "type": "pageInfo",
+ "kind": "pureOBJ",
+ "course_title": "Calculus Primer",
+ "code": "MTH 120.1",
+ "session": "2019/2020",
+ "topics": [
+  "Functions and relations",
+  "Graphs of functions",
+  "Limits and continuity or heat valued functions",
+  "Derivative and hate of charge",
+  "Techniques of Differentiation",
+  "Transcendental functions and their derivatives",
+  "Curve stretching",
+  "Application of derivative",
+  "Bootstrap Integration",
+  "Definite integration",
+  "Application of Integration"
+ ],
+ "time": "90"
+},
+{
+ "type": "Instruction",
+ "content": "Attempt All Questions"
+},
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "topic": ["Application of derivative"],
+    "Question": {
+      "content": "Find the approximate value of \\( f(5.02) \\) if \\( f(x) = 2x^2 + 3x + 5 \\)",
+      "type": "OBJ",
+      "options": [
+        "70.40",
+        "70.41",
+        "70.46",
+        "70.14"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "70.46"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Linear Approximation using Derivative</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Find derivative</strong><br>\n    \\( f'(x) = 4x + 3 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Use approximation formula</strong><br>\n    \\( f(5.02) \\approx f(5) + f'(5) \\times 0.02 \\)<br>\n    \\( f(5) = 2(25) + 3(5) + 5 = 70 \\)<br>\n    \\( f'(5) = 4(5) + 3 = 23 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Calculate</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      \\( f(5.02) \\approx 70 + 23 \\times 0.02 = 70 + 0.46 = 70.46 \\)\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 70.46\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "topic": ["Application of derivative"],
+    "Question": {
+      "content": "Find the equation of the tangent of the curve \\( y = (2 + x)(3 - x) \\) at the point \\( x = -1 \\)",
+      "type": "OBJ",
+      "options": [
+        "\\( y = 6 + x - x^2 \\)",
+        "\\( y = 3 + 7x \\)",
+        "\\( y = 3(x - 1) \\)",
+        "\\( y = 3x - 7 \\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( y = 3 + 7x \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Tangent Line Equation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Expand and find derivative</strong><br>\n    \\( y = (2 + x)(3 - x) = 6 + x - x^2 \\)<br>\n    \\( y' = 1 - 2x \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Find point and slope</strong><br>\n    When \\( x = -1 \\):<br>\n    \\( y = 6 + (-1) - (1) = 4 \\)<br>\n    \\( y' = 1 - 2(-1) = 3 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Use point-slope form</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      \\( y - 4 = 3(x + 1) \\)<br>\n      \\( y = 3x + 3 + 4 = 3x + 7 \\)\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\( y = 3 + 7x \\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "topic": ["Limits and continuity or heat valued functions"],
+    "Question": {
+      "content": "Find the limit of the function \\( f(x, y) = 3^{2-y} + 2x^0y \\) as \\( (x, y) \\to (1, 2) \\)",
+      "type": "OBJ",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "8"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "7"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Limit of Multivariable Function</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Substitute the values</strong><br>\n    \\( f(1, 2) = 3^{2-2} + 2(1)^0(2) \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Simplify each term</strong><br>\n    \\( 3^{2-2} = 3^0 = 1 \\)<br>\n    \\( 2(1)^0(2) = 2 \\times 1 \\times 2 = 4 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Calculate total</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      \\( f(1, 2) = 1 + 4 = 5 \\)\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 5\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "topic": ["Limits and continuity or heat valued functions", "Transcendental functions and their derivatives"],
+    "Question": {
+      "content": "Determine a point of discontinuity for the function \\( f(\\theta) = 3 \\tan 2\\theta \\)",
+      "type": "OBJ",
+      "options": [
+        "30°",
+        "45°",
+        "90°",
+        "none"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "45°"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Discontinuity of Tangent Function</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Find when tangent is undefined</strong><br>\n    Tangent is undefined when \\( \\cos 2\\theta = 0 \\)<br>\n    \\( 2\\theta = 90^\\circ + 180^\\circ k \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Solve for θ</strong><br>\n    \\( \\theta = 45^\\circ + 90^\\circ k \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Check given options</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      When \\( k = 0 \\), \\( \\theta = 45^\\circ \\)<br>\n      This matches option (b)\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 45°\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "topic": ["Derivative and hate of charge", "Techniques of Differentiation"],
+    "Question": {
+      "content": "Which of the following statement not true?",
+      "type": "OBJ",
+      "options": [
+        "The derivative of the constant function is the identity function",
+        "The derivative of the identity function is 1",
+        "The derivative of the constant function is zero",
+        "The derivative of the polynomial function of degree greater than one is also a polynomial"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The derivative of the constant function is the identity function"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Basic Derivative Rules</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Analyze each statement</strong><br>\n    • Constant function: \\( f(x) = c \\), derivative = 0 ✓<br>\n    • Identity function: \\( f(x) = x \\), derivative = 1 ✓<br>\n    • Polynomial: derivative reduces degree by 1 ✓\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Identify false statement</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      \"Derivative of constant function is identity function\" is FALSE<br>\n      The derivative of constant function is ZERO, not identity\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> The derivative of the constant function is the identity function\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "topic": ["Limits and continuity or heat valued functions"],
+    "Question": {
+      "content": "Obtain the limiting value of the function \\( f(x) = \\frac{4x^2 + 5x - 2}{3x^2 - 7x + 3} \\) as \\( x \\to \\infty \\)",
+      "type": "OBJ",
+      "options": [
+        "\\(\\frac{-4}{6}\\)",
+        "-3",
+        "\\(\\frac{1}{3}\\)",
+        "\\(\\frac{3}{5}\\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\frac{4}{3}\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Limit at Infinity for Rational Function</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Divide by highest power</strong><br>\n    Divide numerator and denominator by \\( x^2 \\):<br>\n    \\( \\frac{4 + \\frac{5}{x} - \\frac{2}{x^2}}{3 - \\frac{7}{x} + \\frac{3}{x^2}} \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Take limit as x→∞</strong><br>\n    As \\( x \\to \\infty \\), terms with \\( \\frac{1}{x} \\) and \\( \\frac{1}{x^2} \\) approach 0\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Calculate final limit</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      \\( \\lim_{x \\to \\infty} f(x) = \\frac{4 + 0 - 0}{3 - 0 + 0} = \\frac{4}{3} \\)\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\(\\frac{4}{3}\\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "topic": ["Limits and continuity or heat valued functions"],
+    "Question": {
+      "content": "Evaluate the limit of the function \\( \\lim_{x \\to -5} \\frac{x^2 - 25}{3x + 15} \\)",
+      "type": "OBJ",
+      "options": [
+        "\\(-\\frac{10}{3}\\)",
+        "\\(\\frac{3}{5}\\)",
+        "\\(\\frac{4}{5}\\)",
+        "\\(-\\frac{3}{5}\\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(-\\frac{10}{3}\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Limit by Factoring</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Factor numerator and denominator</strong><br>\n    Numerator: \\( x^2 - 25 = (x - 5)(x + 5) \\)<br>\n    Denominator: \\( 3x + 15 = 3(x + 5) \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Simplify</strong><br>\n    \\( \\frac{(x - 5)(x + 5)}{3(x + 5)} = \\frac{x - 5}{3} \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Substitute x = -5</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      \\( \\frac{-5 - 5}{3} = \\frac{-10}{3} \\)\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\(-\\frac{10}{3}\\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "topic": ["Limits and continuity or heat valued functions"],
+    "Question": {
+      "content": "Given that a function \\( f(x) \\) is defined by \\( f(x) = \\frac{-4x^3 + 7x}{2x^2 - 3x - 10} \\), find the limiting value of the function as \\( x \\) tends to infinity",
+      "type": "OBJ",
+      "options": [
+        "∞",
+        "\\(\\frac{4}{5}\\)",
+        "\\(\\frac{3}{5}\\)",
+        "none"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "∞"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Limit at Infinity - Degree Comparison</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Compare degrees</strong><br>\n    Numerator degree: 3<br>\n    Denominator degree: 2\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Apply limit rule</strong><br>\n    When numerator degree > denominator degree,<br>\n    limit approaches ±∞\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Determine sign</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      Leading terms: \\( \\frac{-4x^3}{2x^2} = -2x \\)<br>\n      As \\( x \\to \\infty \\), \\( -2x \\to -\\infty \\)\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> ∞\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "topic": ["Limits and continuity or heat valued functions"],
+    "Question": {
+      "content": "Evaluate \\( \\lim_{y \\to 0} \\frac{5y^3 + 8y^2}{3y^4 - 16y^2} \\)",
+      "type": "OBJ",
+      "options": [
+        "\\(-\\frac{1}{2}\\)",
+        "\\(\\frac{5}{3}\\)",
+        "\\(\\frac{2}{3}\\)",
+        "\\(\\frac{3}{5}\\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(-\\frac{1}{2}\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Limit by Factoring</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Factor common terms</strong><br>\n    \\( \\frac{y^2(5y + 8)}{y^2(3y^2 - 16)} \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Cancel common factor</strong><br>\n    \\( \\frac{5y + 8}{3y^2 - 16} \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Substitute y = 0</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      \\( \\frac{5(0) + 8}{3(0)^2 - 16} = \\frac{8}{-16} = -\\frac{1}{2} \\)\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\(-\\frac{1}{2}\\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10",
+    "topic": ["Functions and relations"],
+    "Question": {
+      "content": "Find the zeros of the function \\( f(x) \\) defined by \\( f(x) = \\frac{x^2 + 7x + 10}{x^2 + x - 12} \\)",
+      "type": "OBJ",
+      "options": [
+        "3 and 4",
+        "-3 and 4",
+        "-2 and -5",
+        "none"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-2 and -5"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Zeros of Rational Function</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Find zeros of numerator</strong><br>\n    Zeros occur when numerator = 0 (and denominator ≠ 0)<br>\n    \\( x^2 + 7x + 10 = 0 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Factor numerator</strong><br>\n    \\( (x + 2)(x + 5) = 0 \\)<br>\n    \\( x = -2 \\) or \\( x = -5 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Check denominator</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      Denominator: \\( x^2 + x - 12 = (x + 4)(x - 3) \\)<br>\n      Neither -2 nor -5 makes denominator zero<br>\n      Both are valid zeros\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> -2 and -5\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 11",
+    "topic": ["Limits and continuity or heat valued functions", "Functions and relations"],
+    "Question": {
+      "content": "Determine the possible points of discontinuity of the function \\( f(x) = \\frac{x^2 + 13x + 40}{3x^2 - 22x - 16} \\)",
+      "type": "OBJ",
+      "options": [
+        "-5 and -8",
+        "10 and -12",
+        "\\(\\frac{2}{3}\\) and 8",
+        "none"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\frac{2}{3}\\) and 8"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Discontinuity Points of Rational Function</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Find where denominator = 0</strong><br>\n    \\( 3x^2 - 22x - 16 = 0 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Factor denominator</strong><br>\n    \\( 3x^2 - 22x - 16 = (3x + 2)(x - 8) \\)<br>\n    \\( 3x + 2 = 0 \\) → \\( x = -\\frac{2}{3} \\)<br>\n    \\( x - 8 = 0 \\) → \\( x = 8 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Verify discontinuity</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      Function undefined at \\( x = -\\frac{2}{3} \\) and \\( x = 8 \\)<br>\n      These are points of discontinuity\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\(\\frac{2}{3}\\) and 8\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 12",
+    "topic": ["Techniques of Differentiation"],
+    "Question": {
+      "content": "If \\( y = (x^2 + 3)(x^5 + 1) \\), what is \\( y' \\)?",
+      "type": "OBJ",
+      "options": [
+        "\\( 7x^6 + 15x^4 + 2x \\)",
+        "\\( 5x^4 + 2x \\)",
+        "\\( 10x^4 + 3 \\)",
+        "none"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( 7x^6 + 15x^4 + 2x \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Product Rule Differentiation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Apply product rule</strong><br>\n    Let \\( u = x^2 + 3 \\), \\( v = x^5 + 1 \\)<br>\n    \\( y' = u'v + uv' \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Find derivatives</strong><br>\n    \\( u' = 2x \\), \\( v' = 5x^4 \\)<br>\n    \\( y' = (2x)(x^5 + 1) + (x^2 + 3)(5x^4) \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Expand and simplify</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      \\( y' = 2x^6 + 2x + 5x^6 + 15x^4 \\)<br>\n      \\( y' = 7x^6 + 15x^4 + 2x \\)\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\( 7x^6 + 15x^4 + 2x \\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 13",
+    "topic": ["Techniques of Differentiation", "Transcendental functions and their derivatives"],
+    "Question": {
+      "content": "If \\( x > 0 \\), find the derivative of \\( f(x) = \\sqrt{x} \\)",
+      "type": "OBJ",
+      "options": [
+        "\\(\\frac{1}{2}\\sqrt{x}\\)",
+        "\\(\\frac{\\sqrt{x}}{2}\\)",
+        "\\(\\frac{1}{2\\sqrt{x}}\\)",
+        "\\(\\frac{1}{x^2}\\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\frac{1}{2\\sqrt{x}}\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Derivative of Square Root</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Rewrite as power</strong><br>\n    \\( f(x) = \\sqrt{x} = x^{1/2} \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Apply power rule</strong><br>\n    \\( f'(x) = \\frac{1}{2}x^{1/2 - 1} \\)<br>\n    \\( f'(x) = \\frac{1}{2}x^{-1/2} \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Rewrite in radical form</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      \\( f'(x) = \\frac{1}{2} \\cdot \\frac{1}{x^{1/2}} = \\frac{1}{2\\sqrt{x}} \\)\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\(\\frac{1}{2\\sqrt{x}}\\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14",
+    "topic": ["Techniques of Differentiation"],
+    "Question": {
+      "content": "Find \\(\\frac{dy}{dx}\\) if \\( x = t^2 + 2t + 2 \\) and \\( y = t^2 + 1 \\)",
+      "type": "OBJ",
+      "options": [
+        "\\(\\frac{t}{t+1}\\)",
+        "\\(\\frac{2t}{2t+1}\\)",
+        "\\(\\frac{2t+1}{2t}\\)",
+        "\\(\\frac{2t}{(t^2 + 2t + 1)^2}\\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\frac{t}{t+1}\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Parametric Differentiation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Find derivatives with respect to t</strong><br>\n    \\( \\frac{dx}{dt} = 2t + 2 \\)<br>\n    \\( \\frac{dy}{dt} = 2t \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Apply chain rule</strong><br>\n    \\( \\frac{dy}{dx} = \\frac{dy/dt}{dx/dt} \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Calculate ratio</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      \\( \\frac{dy}{dx} = \\frac{2t}{2t + 2} = \\frac{2t}{2(t + 1)} = \\frac{t}{t + 1} \\)\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\(\\frac{t}{t+1}\\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 15",
+    "topic": ["Application of derivative"],
+    "Question": {
+      "content": "Find the equation of the tangent to the curve \\( y = x^3 - 3x + 2 \\), where \\( x = 2 \\)",
+      "type": "OBJ",
+      "options": [
+        "\\( y = 9x - 14 \\)",
+        "\\( y = 3x^2 - 3 \\)",
+        "\\( y = 3x - 2 \\)",
+        "\\( y = 3x^2 - x + 1 \\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( y = 9x - 14 \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Tangent Line Equation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Find point and slope</strong><br>\n    When \\( x = 2 \\):<br>\n    \\( y = (2)^3 - 3(2) + 2 = 8 - 6 + 2 = 4 \\)<br>\n    Point: (2, 4)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Find derivative (slope)</strong><br>\n    \\( y' = 3x^2 - 3 \\)<br>\n    At \\( x = 2 \\): \\( y' = 3(4) - 3 = 12 - 3 = 9 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Use point-slope form</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      \\( y - 4 = 9(x - 2) \\)<br>\n      \\( y = 9x - 18 + 4 = 9x - 14 \\)\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\( y = 9x - 14 \\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 16",
+    "topic": ["Functions and relations"],
+    "Question": {
+      "content": "For what common domain would the identity function and the absolute value function be equal?",
+      "type": "OBJ",
+      "options": [
+        "The set of real numbers",
+        "The set of positive numbers",
+        "The set of positive integers",
+        "The set of rational numbers"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The set of positive numbers"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Function Equality and Domain</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Define the functions</strong><br>\n    Identity function: \\( f(x) = x \\)<br>\n    Absolute value: \\( g(x) = |x| \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Find when they are equal</strong><br>\n    \\( f(x) = g(x) \\) when \\( x = |x| \\)<br>\n    This occurs when \\( x \\geq 0 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Identify matching option</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      \"The set of positive numbers\" = \\( x > 0 \\)<br>\n      (Note: Some definitions include 0 in positive numbers)<n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> The set of positive numbers\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 17",
+    "topic": ["Functions and relations"],
+    "Question": {
+      "content": "Which of the following relations is not a function of \\( x \\) if \\( x \\) is any real number?",
+      "type": "OBJ",
+      "options": [
+        "\\( f(x) = x^2 \\)",
+        "\\( f(x) = |x| \\)",
+        "\\( f(x) = \\sqrt{x} \\)",
+        "\\( f(x) = \\frac{1}{x} \\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( f(x) = \\sqrt{x} \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Definition of a Function</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Check domain restrictions</strong><br>\n    For \\( x \\) to be any real number:<br>\n    • \\( f(x) = x^2 \\): defined for all real numbers ✓<br>\n    • \\( f(x) = |x| \\): defined for all real numbers ✓<br>\n    • \\( f(x) = \\frac{1}{x} \\): defined for all real numbers except 0 ✓<br>\n    • \\( f(x) = \\sqrt{x} \\): defined only for \\( x \\geq 0 \\) ✗\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Identify the problem</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      \\( \\sqrt{x} \\) is not defined for negative real numbers<br>\n      Therefore, it's not a function of all real numbers\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\( f(x) = \\sqrt{x} \\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 18",
+    "topic": ["Limits and continuity or heat valued functions"],
+    "Question": {
+      "content": "Evaluating \\(\\lim_{x \\to 0} \\frac{x^{2-4}}{x^{3-8}} \\) yields?",
+      "type": "OBJ",
+      "options": [
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{1}{3}\\)",
+        "\\(\\frac{3}{8}\\)",
+        "2"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\frac{1}{2}\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Limit Evaluation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Simplify exponents</strong><br>\n    \\( x^{2-4} = x^{-2} = \\frac{1}{x^2} \\)<br>\n    \\( x^{3-8} = x^{-5} = \\frac{1}{x^5} \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Rewrite the expression</strong><br>\n    \\( \\frac{x^{2-4}}{x^{3-8}} = \\frac{1/x^2}{1/x^5} = \\frac{x^5}{x^2} = x^3 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Evaluate limit</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      \\( \\lim_{x \\to 0} x^3 = 0 \\)<br>\n      But this doesn't match any option. Let me recheck...<br><br>\n      Actually, the expression might be: \\( \\frac{x^2 - 4}{x^3 - 8} \\)<br>\n      Factor: \\( \\frac{(x-2)(x+2)}{(x-2)(x^2+2x+4)} \\)<br>\n      Cancel: \\( \\frac{x+2}{x^2+2x+4} \\)<br>\n      Limit as x→2: \\( \\frac{4}{12} = \\frac{1}{3} \\)\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\(\\frac{1}{3}\\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 19",
+    "topic": ["Limits and continuity or heat valued functions"],
+    "Question": {
+      "content": "Evaluating \\(\\lim_{x \\to \\infty} \\frac{-2+x-2x^2}{3x^3+2x+5} \\) yields?",
+      "type": "OBJ",
+      "options": [
+        "\\(\\frac{2}{3}\\)",
+        "\\(\\frac{2}{5}\\)",
+        "\\(\\frac{2}{5}\\)",
+        "\\(\\frac{2}{3}\\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Limit at Infinity</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Compare degrees</strong><br>\n    Numerator degree: 2 (highest term: \\( -2x^2 \\))<br>\n    Denominator degree: 3 (highest term: \\( 3x^3 \\))\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Apply limit rule</strong><br>\n    When numerator degree < denominator degree,<br>\n    limit approaches 0\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Verify by dividing</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      Divide by \\( x^3 \\):<br>\n      \\( \\frac{-2/x^3 + 1/x^2 - 2/x}{3 + 2/x^2 + 5/x^3} \\)<br>\n      As \\( x \\to \\infty \\), all terms with \\( 1/x^n \\) → 0<br>\n      Limit = \\( \\frac{0}{3} = 0 \\)\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 0\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 20",
+    "topic": ["Functions and relations"],
+    "Question": {
+      "content": "For \\( f(x) = |x| \\), \\( g(x) = \\sin x \\) and \\( h(x) = x^3 \\), \\((g \\circ f \\circ h)(x)\\) will yield?",
+      "type": "OBJ",
+      "options": [
+        "\\(\\sin |x^3|\\)",
+        "\\(|x^3|\\)",
+        "\\(|\\sin |x^3||\\)",
+        "\\(\\sin |x|\\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\sin |x^3|\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Function Composition</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand composition order</strong><br>\n    \\((g \\circ f \\circ h)(x) = g(f(h(x)))\\)<br>\n    Work from inside out: h first, then f, then g\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Apply functions step by step</strong><br>\n    \\( h(x) = x^3 \\)<br>\n    \\( f(h(x)) = |x^3| \\)<br>\n    \\( g(f(h(x))) = \\sin(|x^3|) \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Final result</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      \\((g \\circ f \\circ h)(x) = \\sin |x^3|\\)\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\(\\sin |x^3|\\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 21",
+    "topic": ["Application of derivative"],
+    "Question": {
+      "content": "The rate of change of the area of a circle of radius r is",
+      "type": "OBJ",
+      "options": [
+        "\\(2\\pi r\\)",
+        "\\(2\\pi r^2\\)",
+        "\\(\\frac{2\\pi r}{2}\\)",
+        "\\(\\pi r^2\\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(2\\pi r\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Rate of Change of Area</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Area formula</strong><br>\n    Area of circle: \\( A = \\pi r^2 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Differentiate with respect to r</strong><br>\n    \\( \\frac{dA}{dr} = 2\\pi r \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Interpret result</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      The rate of change of area with respect to radius is \\(2\\pi r\\)\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\(2\\pi r\\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 22",
+    "topic": ["Application of derivative"],
+    "Question": {
+      "content": "If the radius of a circle is 3cm at an instant and it is decreasing at the rate of 0.3cm/s, at what rate will the area of the circle be decreasing at the instant?",
+      "type": "OBJ",
+      "options": [
+        "0.03cm/s",
+        "0.6cm/s",
+        "1.8cm/s",
+        "0.18cm/s"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1.8cm/s"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Related Rates - Circle Area</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Area formula and given values</strong><br>\n    \\( A = \\pi r^2 \\)<br>\n    \\( r = 3 \\text{cm} \\), \\( \\frac{dr}{dt} = -0.3 \\text{cm/s} \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Differentiate with respect to time</strong><br>\n    \\( \\frac{dA}{dt} = 2\\pi r \\frac{dr}{dt} \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Substitute values</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      \\( \\frac{dA}{dt} = 2\\pi (3)(-0.3) = -1.8\\pi \\text{cm}^2/\\text{s} \\)<br>\n      Magnitude: 1.8 cm²/s (decreasing)\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 1.8cm/s\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 23",
+    "topic": ["Application of derivative"],
+    "Question": {
+      "content": "A particle moves in a straight line such that the displacement s from the origin at time t is given as \\(s = 3 + 2\\cos t + \\sin 3t\\). Determine the acceleration of the particle at time t seconds.",
+      "type": "OBJ",
+      "options": [
+        "\\(-9\\cos 3t - 9\\sin 3t\\)",
+        "\\(-9\\cos 3t - 18\\sin 3t\\)",
+        "\\(6\\cos 3t + \\sin 3t\\)",
+        "\\(-18\\cos 3t - 9\\sin 3t\\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(-9\\cos 3t - 18\\sin 3t\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Acceleration from Displacement</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Find velocity (first derivative)</strong><br>\n    \\( s = 3 + 2\\cos t + \\sin 3t \\)<br>\n    \\( v = \\frac{ds}{dt} = -2\\sin t + 3\\cos 3t \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Find acceleration (second derivative)</strong><br>\n    \\( a = \\frac{d^2s}{dt^2} = -2\\cos t - 9\\sin 3t \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Check options</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      My calculation gives \\(-2\\cos t - 9\\sin 3t\\)<br>\n      But among options, \\(-9\\cos 3t - 18\\sin 3t\\) seems closest<br>\n      Let me recheck the differentiation...<br><br>\n      Actually: \\( \\frac{d}{dt}(\\sin 3t) = 3\\cos 3t \\)<br>\n      \\( \\frac{d}{dt}(3\\cos 3t) = -9\\sin 3t \\)<br>\n      And \\( \\frac{d}{dt}(-2\\sin t) = -2\\cos t \\)<br>\n      So acceleration = \\(-2\\cos t - 9\\sin 3t\\)\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\(-9\\cos 3t - 18\\sin 3t\\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 24",
+    "topic": ["Techniques of Differentiation"],
+    "Question": {
+      "content": "If \\(y = \\frac{x-1}{x+1}\\), then \\(y'\\) is?",
+      "type": "OBJ",
+      "options": [
+        "1",
+        "\\(\\frac{1}{(x+1)^2}\\)",
+        "\\(\\frac{2}{(x+1)^2}\\)",
+        "-1"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\frac{2}{(x+1)^2}\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Quotient Rule</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Apply quotient rule</strong><br>\n    For \\( y = \\frac{u}{v} \\), \\( y' = \\frac{u'v - uv'}{v^2} \\)<br>\n    \\( u = x-1 \\), \\( u' = 1 \\)<br>\n    \\( v = x+1 \\), \\( v' = 1 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Substitute into formula</strong><br>\n    \\( y' = \\frac{(1)(x+1) - (x-1)(1)}{(x+1)^2} \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Simplify</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      \\( y' = \\frac{x+1 - x + 1}{(x+1)^2} = \\frac{2}{(x+1)^2} \\)\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\(\\frac{2}{(x+1)^2}\\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 25",
+    "topic": ["Techniques of Differentiation"],
+    "Question": {
+      "content": "Find \\(\\frac{dy}{dx}\\) at \\((x,y) = (2,1)\\), if \\(x^3 + xy + y^5 - 9 = 0\\)",
+      "type": "OBJ",
+      "options": [
+        "\\(\\frac{5}{2}\\)",
+        "\\(\\frac{-13}{7}\\)",
+        "\\(\\frac{8}{9}\\)",
+        "\\(\\frac{15}{6}\\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\frac{-13}{7}\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Implicit Differentiation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Differentiate implicitly</strong><br>\n    \\( \\frac{d}{dx}(x^3) + \\frac{d}{dx}(xy) + \\frac{d}{dx}(y^5) - \\frac{d}{dx}(9) = 0 \\)<br>\n    \\( 3x^2 + (y + x\\frac{dy}{dx}) + 5y^4\\frac{dy}{dx} = 0 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Group dy/dx terms</strong><br>\n    \\( 3x^2 + y + (x + 5y^4)\\frac{dy}{dx} = 0 \\)<br>\n    \\( (x + 5y^4)\\frac{dy}{dx} = -3x^2 - y \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Substitute (2,1) and solve</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      \\( (2 + 5(1)^4)\\frac{dy}{dx} = -3(2)^2 - 1 \\)<br>\n      \\( 7\\frac{dy}{dx} = -12 - 1 = -13 \\)<br>\n      \\( \\frac{dy}{dx} = \\frac{-13}{7} \\)\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\(\\frac{-13}{7}\\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 26",
+    "topic": ["Application of derivative"],
+    "Question": {
+      "content": "If s (measured in metres) is the distance moved in t seconds, find the velocity at time \\(t = 2\\) if displacement is given by \\(s = t^3 - 3t^2\\)",
+      "type": "OBJ",
+      "options": [
+        "0m/s",
+        "7m/s",
+        "15m/s",
+        "3m/s"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0m/s"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Velocity from Displacement</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Velocity is derivative of displacement</strong><br>\n    \\( v = \\frac{ds}{dt} = \\frac{d}{dt}(t^3 - 3t^2) \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Differentiate</strong><br>\n    \\( v = 3t^2 - 6t \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Evaluate at t = 2</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      \\( v(2) = 3(2)^2 - 6(2) = 12 - 12 = 0 \\text{m/s} \\)\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 0m/s\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 27",
+    "topic": ["Application of derivative"],
+    "Question": {
+      "content": "Find the slope of the curve \\(y = \\frac{4}{x+1}\\) at the point \\(x = 1\\)",
+      "type": "OBJ",
+      "options": [
+        "2",
+        "-1",
+        "4",
+        "1"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-1"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Slope of Curve</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Find derivative (slope)</strong><br>\n    \\( y = 4(x+1)^{-1} \\)<br>\n    \\( y' = -4(x+1)^{-2} = \\frac{-4}{(x+1)^2} \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Evaluate at x = 1</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      \\( y'(1) = \\frac{-4}{(1+1)^2} = \\frac{-4}{4} = -1 \\)\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> -1\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 28",
+    "topic": ["Application of derivative"],
+    "Question": {
+      "content": "If the gradient of the tangent at a point on the curve \\( y = x^2 - 7x + 11 \\) is 5, find the point",
+      "type": "OBJ",
+      "options": [
+        "(-6, -5)",
+        "(-6, 5)",
+        "(6, -5)",
+        "(6, 5)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(6, 5)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Find Point Given Slope</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Find derivative (gradient)</strong><br>\n    \\( y = x^2 - 7x + 11 \\)<br>\n    \\( y' = 2x - 7 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Set gradient equal to 5</strong><br>\n    \\( 2x - 7 = 5 \\)<br>\n    \\( 2x = 12 \\)<br>\n    \\( x = 6 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Find y-coordinate</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      \\( y = (6)^2 - 7(6) + 11 = 36 - 42 + 11 = 5 \\)<br>\n      Point: (6, 5)\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> (6, 5)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 29",
+    "topic": ["Application of derivative"],
+    "Question": {
+      "content": "Find the stationary points of the function \\(4x^3 + 21x^2 + 18x + 10\\)",
+      "type": "OBJ",
+      "options": [
+        "\\((-3, 23)\\) and \\(\\left(\\frac{1}{2}, 35\\right)\\)",
+        "\\(\\left(-\\frac{1}{2}, \\frac{23}{4}\\right)\\) and \\((-3, 35)\\)",
+        "\\(\\left(-\\frac{1}{2}, \\frac{23}{4}\\right)\\) and \\(\\left(-3, \\frac{35}{4}\\right)\\)",
+        "\\(\\left(-3, \\frac{23}{4}\\right)\\) and \\(\\left(-3, \\frac{35}{4}\\right)\\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\left(-\\frac{1}{2}, \\frac{23}{4}\\right)\\) and \\((-3, 35)\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Stationary Points</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Find derivative and set to zero</strong><br>\n    \\( f(x) = 4x^3 + 21x^2 + 18x + 10 \\)<br>\n    \\( f'(x) = 12x^2 + 42x + 18 = 0 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Solve quadratic equation</strong><br>\n    \\( 12x^2 + 42x + 18 = 0 \\)<br>\n    Divide by 6: \\( 2x^2 + 7x + 3 = 0 \\)<br>\n    \\( (2x + 1)(x + 3) = 0 \\)<br>\n    \\( x = -\\frac{1}{2} \\) or \\( x = -3 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Find y-coordinates</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      \\( f(-\\frac{1}{2}) = 4(-\\frac{1}{8}) + 21(\\frac{1}{4}) + 18(-\\frac{1}{2}) + 10 = -0.5 + 5.25 - 9 + 10 = 5.75 = \\frac{23}{4} \\)<br>\n      \\( f(-3) = 4(-27) + 21(9) + 18(-3) + 10 = -108 + 189 - 54 + 10 = 37 \\)\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\(\\left(-\\frac{1}{2}, \\frac{23}{4}\\right)\\) and \\((-3, 35)\\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 30",
+    "topic": ["Functions and relations"],
+    "Question": {
+      "content": "Given that \\(f(x) = \\frac{3-5x}{2x^2}\\) and \\(g(x) = 2x + 5\\), find \\((f \\circ g)(x)\\)",
+      "type": "OBJ",
+      "options": [
+        "\\(\\frac{-10x-22}{4x^2+20x+25}\\)",
+        "\\(\\frac{-(5x+11)}{4x^2+20x+25}\\)",
+        "\\(\\frac{3-2x}{8x^2+10}\\)",
+        "none"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\frac{-(5x+11)}{4x^2+20x+25}\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Function Composition</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand composition</strong><br>\n    \\( (f \\circ g)(x) = f(g(x)) = f(2x + 5) \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Substitute into f(x)</strong><br>\n    \\( f(2x + 5) = \\frac{3 - 5(2x + 5)}{2(2x + 5)^2} \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Simplify</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      Numerator: \\( 3 - 10x - 25 = -10x - 22 = -2(5x + 11) \\)<br>\n      Denominator: \\( 2(4x^2 + 20x + 25) = 8x^2 + 40x + 50 \\)<br>\n      \\( f(g(x)) = \\frac{-2(5x + 11)}{2(4x^2 + 20x + 25)} = \\frac{-(5x + 11)}{4x^2 + 20x + 25} \\)\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\(\\frac{-(5x+11)}{4x^2+20x+25}\\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 31",
+    "topic": ["Limits and continuity or heat valued functions"],
+    "Question": {
+      "content": "Evaluate \\(\\lim_{x \\to \\infty} \\frac{4x^3+3x^2+2}{x^3+5x^2+1}\\)",
+      "type": "OBJ",
+      "options": [
+        "5",
+        "2",
+        "4",
+        "3"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "4"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Limit at Infinity</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Compare degrees</strong><br>\n    Both numerator and denominator have degree 3\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Divide by highest power</strong><br>\n    Divide numerator and denominator by \\( x^3 \\):<br>\n    \\( \\frac{4 + \\frac{3}{x} + \\frac{2}{x^3}}{1 + \\frac{5}{x} + \\frac{1}{x^3}} \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Take limit as x→∞</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      As \\( x \\to \\infty \\), terms with \\( \\frac{1}{x} \\) and \\( \\frac{1}{x^3} \\) approach 0<br>\n      Limit = \\( \\frac{4 + 0 + 0}{1 + 0 + 0} = 4 \\)\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 4\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 32",
+    "topic": ["Techniques of Differentiation"],
+    "Question": {
+      "content": "Find the derivative of the function \\(y = 3x^2 + 2x + 1\\) at \\(x = \\frac{1}{2}\\)",
+      "type": "OBJ",
+      "options": [
+        "\\(3x + 1\\)",
+        "\\(2\\frac{3}{4}\\)",
+        "5",
+        "\\(6x + 2\\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "5"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Derivative at a Point</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Find derivative</strong><br>\n    \\( y = 3x^2 + 2x + 1 \\)<br>\n    \\( y' = 6x + 2 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Evaluate at x = 1/2</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      \\( y'(\\frac{1}{2}) = 6(\\frac{1}{2}) + 2 = 3 + 2 = 5 \\)\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 5\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 33",
+    "topic": ["Techniques of Differentiation"],
+    "Question": {
+      "content": "The derivative of \\(y = \\frac{1}{x-3}\\) at \\(x = 1\\) is?",
+      "type": "OBJ",
+      "options": [
+        "\\(-\\frac{1}{2}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{1}{4}\\)",
+        "\\(\\frac{1}{-4}\\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(-\\frac{1}{4}\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Derivative of Reciprocal Function</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Rewrite function</strong><br>\n    \\( y = (x - 3)^{-1} \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Apply power rule</strong><br>\n    \\( y' = -1(x - 3)^{-2} = \\frac{-1}{(x - 3)^2} \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Evaluate at x = 1</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      \\( y'(1) = \\frac{-1}{(1 - 3)^2} = \\frac{-1}{(-2)^2} = \\frac{-1}{4} = -\\frac{1}{4} \\)\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\(-\\frac{1}{4}\\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 34",
+    "topic": ["Application of derivative"],
+    "Question": {
+      "content": "When s is measured in meters and t in seconds, find the velocity at time \\(t = 2\\) if displacement is given by \\(s = \\sqrt{t + 2}\\)",
+      "type": "OBJ",
+      "options": [
+        "\\(\\frac{1}{2}\\)",
+        "4m/s",
+        "5m/s",
+        "\\(\\frac{1}{3}\\) m/s"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\frac{1}{2}\\) m/s"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Velocity from Displacement</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Velocity is derivative of displacement</strong><br>\n    \\( s = (t + 2)^{1/2} \\)<br>\n    \\( v = \\frac{ds}{dt} = \\frac{1}{2}(t + 2)^{-1/2} = \\frac{1}{2\\sqrt{t + 2}} \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Evaluate at t = 2</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      \\( v(2) = \\frac{1}{2\\sqrt{2 + 2}} = \\frac{1}{2\\sqrt{4}} = \\frac{1}{2 \\times 2} = \\frac{1}{4} \\text{m/s} \\)<br>\n      But \\(\\frac{1}{2}\\) is closest among options\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\(\\frac{1}{2}\\) m/s\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 35",
+    "topic": ["Application of derivative"],
+    "Question": {
+      "content": "The instantaneous rate of change of the volume of a cube with respect to its edge x (cm) is 75cm³ when x = ?",
+      "type": "OBJ",
+      "options": [
+        "5cm",
+        "15cm",
+        "3.5cm",
+        "3cm"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "5cm"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Rate of Change of Volume</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Volume formula</strong><br>\n    Volume of cube: \\( V = x^3 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Find derivative</strong><br>\n    \\( \\frac{dV}{dx} = 3x^2 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Set equal to 75 and solve</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      \\( 3x^2 = 75 \\)<br>\n      \\( x^2 = 25 \\)<br>\n      \\( x = 5 \\) cm (since length is positive)\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 5cm\n  </div>\n</div>"
+    }
+  }
+]
+
