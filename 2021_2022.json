@@ -1,1 +1,656 @@
-{}
+[ {
+  "type": "pageInfo",
+  "kind": "pureOBJ",
+  "course_title": "Calculus Primer",
+  "code": "MTH 120.1",
+  "session": "2021/2022",
+  "topics": [
+   "Functions and relations",
+   "Graphs of functions",
+   "Limits and continuity or heat valued functions",
+   "Derivative and hate of charge",
+   "Techniques of Differentiation",
+   "Transcendental functions and their derivatives",
+   "Curve stretching",
+   "Application of derivative",
+   "Bootstrap Integration",
+   "Definite integration",
+   "Application of Integration"
+  ],
+  "time": "90"
+ },
+ {
+  "type": "Instruction",
+  "content": "Attempt All Questions"
+ },
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "topic": ["Limits and continuity or heat valued functions"],
+    "Question": {
+      "content": "Obtain the limiting value of the function \\( f(x) = \\frac{4x^2+5x-2}{3x^2-7x+3} \\) as \\( x \\to \\infty \\)",
+      "type": "OBJ",
+      "options": ["-3", "\\( 1 \\frac{1}{3} \\)", "\\( \\frac{3}{5} \\)", "\\( -\\frac{2}{3} \\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( 1 \\frac{1}{3} \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Limit at Infinity for Rational Function</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 1: Identify Highest Power</strong><br>\\n    For rational functions as x → ∞, divide numerator and denominator by the highest power of x (x²)\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 2: Divide by x²</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$f(x) = \\frac{4 + \\frac{5}{x} - \\frac{2}{x^2}}{3 - \\frac{7}{x} + \\frac{3}{x^2}}$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 3: Take Limit</strong><br>\\n    As x → ∞, terms with 1/x and 1/x² approach 0:<br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$\\lim_{x \\to \\infty} f(x) = \\frac{4 + 0 - 0}{3 - 0 + 0} = \\frac{4}{3} = 1\\frac{1}{3}$$\\n    </div>\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> The limit is \\( 1\\frac{1}{3} \\)\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "topic": ["Limits and continuity or heat valued functions"],
+    "Question": {
+      "content": "Evaluate the limit of the function \\( \\lim_{x \\to -5} \\frac{x^2-25}{3x+15} \\)",
+      "type": "OBJ",
+      "options": ["3", "4", "\\( -\\frac{3}{5} \\)", "\\( -\\frac{10}{3} \\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( -\\frac{10}{3} \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Limit by Factoring</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 1: Factor Both Parts</strong><br>\\n    Numerator: x² - 25 = (x-5)(x+5)<br>\\n    Denominator: 3x + 15 = 3(x+5)\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 2: Simplify</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$\\frac{x^2-25}{3x+15} = \\frac{(x-5)(x+5)}{3(x+5)} = \\frac{x-5}{3}$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 3: Substitute x = -5</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$\\frac{-5-5}{3} = \\frac{-10}{3}$$\\n    </div>\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> The limit is \\( -\\frac{10}{3} \\)\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "topic": ["Derivative and hate of charge", "Techniques of Differentiation"],
+    "Question": {
+      "content": "Find \\( \\frac{dy}{dx} \\) if \\( x = t^2 + 2t + 2 \\) and \\( y = t^2 + 1 \\)",
+      "type": "OBJ",
+      "options": ["\\( \\frac{t}{t+1} \\)", "\\( \\frac{2t}{2t+1} \\)", "\\( \\frac{2t+1}{2t} \\)", "\\( \\frac{2t}{(t^2+2t+1)^2} \\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( \\frac{t}{t+1} \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Parametric Differentiation</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 1: Find dx/dt and dy/dt</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$\\frac{dx}{dt} = 2t + 2$$\\n      $$\\frac{dy}{dt} = 2t$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 2: Apply Chain Rule</strong><br>\\n    Using chain rule: \\( \\frac{dy}{dx} = \\frac{dy/dt}{dx/dt} \\)\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 3: Calculate dy/dx</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$\\frac{dy}{dx} = \\frac{2t}{2t + 2} = \\frac{2t}{2(t + 1)} = \\frac{t}{t + 1}$$\\n    </div>\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> \\( \\frac{dy}{dx} = \\frac{t}{t+1} \\)\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "topic": ["Functions and relations"],
+    "Question": {
+      "content": "Which of the following relations is not a function of \\( x \\) if \\( x \\) is any real number?",
+      "type": "OBJ",
+      "options": ["\\( f(x) = x^2 \\)", "\\( f(x) = \\frac{1}{x} \\)", "\\( f(x) = |x| \\)", "\\( f(x) = \\sqrt{x} \\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( f(x) = \\sqrt{x} \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Understanding Functions</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>What is a Function?</strong><br>\\n    A function must give exactly one output for each input in its domain.\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Analyze Each Option:</strong><br>\\n    • \\( f(x) = x^2 \\): Works for all real x ✓<br>\\n    • \\( f(x) = \\frac{1}{x} \\): Works for all x ≠ 0 ✓<br>\\n    • \\( f(x) = |x| \\): Works for all real x ✓<br>\\n    • \\( f(x) = \\sqrt{x} \\): Only defined for x ≥ 0 ✗\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Key Issue:</strong><br>\\n    For negative x values, \\( \\sqrt{x} \\) is not defined in real numbers, so it's not a function for ALL real numbers.\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> \\( f(x) = \\sqrt{x} \\) is not a function for all real numbers\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "topic": ["Limits and continuity or heat valued functions"],
+    "Question": {
+      "content": "Evaluating \\( \\lim_{x \\to 0} \\frac{x^2-4}{x^3-8} \\) yields:",
+      "type": "OBJ",
+      "options": ["\\( \\frac{1}{2} \\)", "\\( \\frac{1}{3} \\)", "\\( \\frac{3}{8} \\)", "2"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( \\frac{1}{2} \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Direct Substitution Limit</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 1: Try Direct Substitution</strong><br>\\n    Since the denominator is not zero when x = 0, we can substitute directly.\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 2: Substitute x = 0</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$\\frac{0^2 - 4}{0^3 - 8} = \\frac{-4}{-8} = \\frac{1}{2}$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 3: Verify</strong><br>\\n    No division by zero occurs, so direct substitution is valid.\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> The limit is \\( \\frac{1}{2} \\)\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "topic": ["Limits and continuity or heat valued functions"],
+    "Question": {
+      "content": "Evaluating \\( \\lim_{x \\to \\infty} \\frac{-2+x-2x^2}{3x^2+2x+5} \\) yields:",
+      "type": "OBJ",
+      "options": ["\\( -\\frac{2}{3} \\)", "\\( \\frac{2}{5} \\)", "\\( -\\frac{2}{5} \\)", "\\( \\frac{2}{3} \\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( -\\frac{2}{3} \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Limit at Infinity for Rational Function</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 1: Identify Highest Power</strong><br>\\n    Highest power is x² in both numerator and denominator\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 2: Divide by x²</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$\\frac{-\\frac{2}{x^2} + \\frac{1}{x} - 2}{3 + \\frac{2}{x} + \\frac{5}{x^2}}$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 3: Take Limit</strong><br>\\n    As x → ∞, terms with 1/x and 1/x² approach 0:<br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$\\lim_{x \\to \\infty} = \\frac{0 + 0 - 2}{3 + 0 + 0} = -\\frac{2}{3}$$\\n    </div>\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> The limit is \\( -\\frac{2}{3} \\)\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "topic": ["Derivative and hate of charge", "Application of derivative"],
+    "Question": {
+      "content": "The rate of change of the area of a circle of radius r is?",
+      "type": "OBJ",
+      "options": ["\\( 2\\pi r \\)", "\\( 2\\pi r^2 \\)", "\\( \\frac{2\\pi r}{2} \\)", "\\( \\pi r^2 \\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( 2\\pi r \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Rate of Change of Area</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 1: Area Formula</strong><br>\\n    Area of circle: A = πr²\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 2: Differentiate with Respect to r</strong><br>\\n    Rate of change means derivative with respect to r:<br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$\\frac{dA}{dr} = 2\\pi r$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 3: Interpretation</strong><br>\\n    This tells us how much the area changes when the radius changes by a small amount.\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> The rate of change is \\( 2\\pi r \\)\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "topic": ["Application of derivative"],
+    "Question": {
+      "content": "Find the approximate value of \\( f(5.02) \\) if \\( f(x) = 2x^2 + 3x + 5 \\)",
+      "type": "OBJ",
+      "options": ["70.40", "70.14", "70.46", "70.4"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "70.46"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Linear Approximation</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 1: Choose Base Point</strong><br>\\n    Use x = 5 as base point (close to 5.02)\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 2: Calculate f(5) and f'(x)</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$f(5) = 2(25) + 3(5) + 5 = 50 + 15 + 5 = 70$$\\n      $$f'(x) = 4x + 3$$\\n      $$f'(5) = 4(5) + 3 = 23$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 3: Apply Linear Approximation</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$f(5.02) ≈ f(5) + f'(5) × (5.02 - 5)$$\\n      $$f(5.02) ≈ 70 + 23 × 0.02 = 70 + 0.46 = 70.46$$\\n    </div>\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> The approximate value is 70.46\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "topic": ["Application of derivative", "Curve stretching"],
+    "Question": {
+      "content": "Find the stationary points of the function \\( 4x^3 + 21x^2 + 18x + 10 \\)",
+      "type": "OBJ",
+      "options": ["(-3,23), (½,35)", "(-½,23/4), (-3,37)", "(-½,23/4), (-3,35/4)", "(-3,23/4), (½,35)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(-½,23/4), (-3,35/4)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Finding Stationary Points</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 1: Find Derivative</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$f(x) = 4x^3 + 21x^2 + 18x + 10$$\\n      $$f'(x) = 12x^2 + 42x + 18$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 2: Set f'(x) = 0</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$12x^2 + 42x + 18 = 0$$\\n      Divide by 6: $$2x^2 + 7x + 3 = 0$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 3: Solve Quadratic</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$(2x + 1)(x + 3) = 0$$\\n      $$x = -\\frac{1}{2}, -3$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 4: Find y-coordinates</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$f(-\\frac{1}{2}) = 4(-\\frac{1}{8}) + 21(\\frac{1}{4}) + 18(-\\frac{1}{2}) + 10 = \\frac{23}{4}$$\\n      $$f(-3) = 4(-27) + 21(9) + 18(-3) + 10 = \\frac{35}{4}$$\\n    </div>\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> Stationary points are (-½, 23/4) and (-3, 35/4)\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10",
+    "topic": ["Functions and relations"],
+    "Question": {
+      "content": "Find the zeros of the function \\( f(x) \\) defined by \\( f(x) = \\frac{x^2+7x+10}{x^2+x-12} \\)",
+      "type": "OBJ",
+      "options": ["3 and 4", "-5 and -8", "-2 and -5", "None"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-2 and -5"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Finding Zeros of Rational Function</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 1: Understand Zeros</strong><br>\\n    Zeros occur when numerator = 0 (and denominator ≠ 0)\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 2: Factor Numerator</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$x^2 + 7x + 10 = (x + 2)(x + 5)$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 3: Factor Denominator</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$x^2 + x - 12 = (x + 4)(x - 3)$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 4: Identify Zeros</strong><br>\\n    Numerator zeros: x = -2, -5<br>\\n    Check denominator: f(-2) and f(-5) are defined (denominator ≠ 0)<br>\\n    So zeros are x = -2 and x = -5\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> The zeros are -2 and -5\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 11",
+    "topic": ["Limits and continuity or heat valued functions"],
+    "Question": {
+      "content": "Determine the possible points of discontinuity of the function \\( f(x) = \\frac{x^2 + 13x + 40}{3x^2 - 22x - 16} \\)",
+      "type": "OBJ",
+      "options": ["\\( -\\frac{2}{3} \\) and 8", "-5 and -8", "10 and -12", "None"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( -\\frac{2}{3} \\) and 8"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Points of Discontinuity</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 1: Find Where Denominator = 0</strong><br>\\n    Discontinuities occur when denominator equals zero\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 2: Factor Denominator</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$3x^2 - 22x - 16 = 0$$\\n      $$(3x + 2)(x - 8) = 0$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 3: Solve for x</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$3x + 2 = 0 \\Rightarrow x = -\\frac{2}{3}$$\\n      $$x - 8 = 0 \\Rightarrow x = 8$$\\n    </div>\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> Points of discontinuity are \\( -\\frac{2}{3} \\) and 8\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 12",
+    "topic": ["Techniques of Differentiation"],
+    "Question": {
+      "content": "If \\( x > 0 \\), find the derivative of \\( f(x) = \\sqrt{x} \\)",
+      "type": "OBJ",
+      "options": ["\\( -\\frac{\\sqrt{x}}{2} \\)", "\\( \\frac{1}{2\\sqrt{x}} \\)", "\\( \\frac{1}{2\\sqrt{x}} \\)", "\\( \\frac{1}{x^2} \\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( \\frac{1}{2\\sqrt{x}} \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Derivative of Square Root</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 1: Rewrite in Exponent Form</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$\\sqrt{x} = x^{\\frac{1}{2}}$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 2: Apply Power Rule</strong><br>\\n    Power rule: \\( \\frac{d}{dx}[x^n] = nx^{n-1} \\)\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 3: Differentiate</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$f'(x) = \\frac{1}{2}x^{\\frac{1}{2} - 1} = \\frac{1}{2}x^{-\\frac{1}{2}} = \\frac{1}{2\\sqrt{x}}$$\\n    </div>\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> \\( f'(x) = \\frac{1}{2\\sqrt{x}} \\)\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 13",
+    "topic": ["Techniques of Differentiation"],
+    "Question": {
+      "content": "Find the derivative of the function \\( y = 3x^2 + 2x + 1 \\) at \\( x = \\frac{1}{2} \\)",
+      "type": "OBJ",
+      "options": ["\\( 2\\frac{3}{4} \\)", "5", "6x + 2", "3x + 1"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "5"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Derivative at Specific Point</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 1: Find General Derivative</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$y = 3x^2 + 2x + 1$$\\n      $$y' = 6x + 2$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 2: Substitute x = 1/2</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$y'\\left(\\frac{1}{2}\\right) = 6\\left(\\frac{1}{2}\\right) + 2 = 3 + 2 = 5$$\\n    </div>\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> The derivative at x = 1/2 is 5\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14",
+    "topic": ["Techniques of Differentiation"],
+    "Question": {
+      "content": "If \\( y = (x^2 + 3)(x^5 + 1) \\), what is \\( y' \\)?",
+      "type": "OBJ",
+      "options": ["\\( 7x^6 + 15x^4 + 2x \\)", "\\( 5x^4 + 2x \\)", "\\( 10x^4 + 3 \\)", "None"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( 7x^6 + 15x^4 + 2x \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Product Rule Differentiation</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 1: Identify u and v</strong><br>\\n    Let u = x² + 3, v = x⁵ + 1\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 2: Apply Product Rule</strong><br>\\n    Product rule: (uv)' = u'v + uv'\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 3: Calculate Derivatives</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$u' = 2x, \\quad v' = 5x^4$$\\n      $$y' = (2x)(x^5 + 1) + (x^2 + 3)(5x^4)$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 4: Expand and Simplify</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$y' = 2x^6 + 2x + 5x^6 + 15x^4$$\\n      $$y' = 7x^6 + 15x^4 + 2x$$\\n    </div>\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> \\( y' = 7x^6 + 15x^4 + 2x \\)\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 15",
+    "topic": ["Techniques of Differentiation"],
+    "Question": {
+      "content": "If \\( y = \\frac{x-1}{x+1} \\), then \\( y' \\) is?",
+      "type": "OBJ",
+      "options": ["1", "\\( \\frac{1}{(x+1)^2} \\)", "\\( \\frac{2}{(x+1)^2} \\)", "-1"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( \\frac{2}{(x+1)^2} \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Quotient Rule Differentiation</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 1: Identify u and v</strong><br>\\n    Let u = x - 1, v = x + 1\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 2: Apply Quotient Rule</strong><br>\\n    Quotient rule: \\( \\left(\\frac{u}{v}\\right)' = \\frac{u'v - uv'}{v^2} \\)\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 3: Calculate Derivatives</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$u' = 1, \\quad v' = 1$$\\n      $$y' = \\frac{(1)(x+1) - (x-1)(1)}{(x+1)^2}$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 4: Simplify</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$y' = \\frac{x + 1 - x + 1}{(x+1)^2} = \\frac{2}{(x+1)^2}$$\\n    </div>\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> \\( y' = \\frac{2}{(x+1)^2} \\)\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 16",
+    "topic": ["Techniques of Differentiation"],
+    "Question": {
+      "content": "Find \\( \\frac{dy}{dx} \\) at \\( (x, y) = (2,1) \\), if \\( x^3 + xy + y^5 - 9 = 0 \\)",
+      "type": "OBJ",
+      "options": ["\\( \\frac{5}{2} \\)", "\\( \\frac{-13}{7} \\)", "\\( \\frac{8}{9} \\)", "\\( \\frac{15}{6} \\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( \\frac{-13}{7} \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Implicit Differentiation</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 1: Differentiate Implicitly</strong><br>\\n    Differentiate both sides with respect to x:\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$3x^2 + y + x\\frac{dy}{dx} + 5y^4\\frac{dy}{dx} = 0$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 2: Group dy/dx Terms</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$x\\frac{dy}{dx} + 5y^4\\frac{dy}{dx} = -3x^2 - y$$\\n      $$\\frac{dy}{dx}(x + 5y^4) = -3x^2 - y$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 3: Substitute (2,1)</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$\\frac{dy}{dx}(2 + 5(1)^4) = -3(2)^2 - 1$$\\n      $$\\frac{dy}{dx}(7) = -12 - 1 = -13$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 4: Solve for dy/dx</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$\\frac{dy}{dx} = \\frac{-13}{7}$$\\n    </div>\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> \\( \\frac{dy}{dx} = \\frac{-13}{7} \\)\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 17",
+    "topic": ["Techniques of Differentiation"],
+    "Question": {
+      "content": "Find the derivative of the function \\( y = 6x^2(x^2 + x) \\)",
+      "type": "OBJ",
+      "options": ["\\( 3x^4(2x + 1) \\)", "\\( x^4(2x + 3) \\)", "\\( 6x^2(4x + 3) \\)", "none of the above"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( 6x^2(4x + 3) \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Product Rule or Expansion</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Method 1: Expand First</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$y = 6x^2(x^2 + x) = 6x^4 + 6x^3$$\\n      $$y' = 24x^3 + 18x^2$$\\n      Factor: $$6x^2(4x + 3)$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Method 2: Product Rule</strong><br>\\n    Let u = 6x², v = x² + x<br>\\n    u' = 12x, v' = 2x + 1<br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$y' = u'v + uv'$$\\n      $$y' = (12x)(x^2 + x) + (6x^2)(2x + 1)$$\\n      $$y' = 12x^3 + 12x^2 + 12x^3 + 6x^2$$\\n      $$y' = 24x^3 + 18x^2 = 6x^2(4x + 3)$$\\n    </div>\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> \\( y' = 6x^2(4x + 3) \\)\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 18",
+    "topic": ["Techniques of Differentiation"],
+    "Question": {
+      "content": "Find \\( \\frac{dy}{dx} \\) at \\( x = 1 \\) given that \\( y = \\frac{2x+5}{x^2+1} \\)",
+      "type": "OBJ",
+      "options": ["10", "-10", "\\( \\frac{5}{4} \\)", "\\( -\\frac{5}{2} \\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-10"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Quotient Rule with Specific Value</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 1: Apply Quotient Rule</strong><br>\\n    Let u = 2x + 5, v = x² + 1<br>\\n    u' = 2, v' = 2x\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 2: General Derivative</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$y' = \\frac{u'v - uv'}{v^2} = \\frac{2(x^2+1) - (2x+5)(2x)}{(x^2+1)^2}$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 3: Simplify</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$y' = \\frac{2x^2 + 2 - 4x^2 - 10x}{(x^2+1)^2} = \\frac{-2x^2 - 10x + 2}{(x^2+1)^2}$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 4: Substitute x = 1</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$y'(1) = \\frac{-2(1)^2 - 10(1) + 2}{((1)^2+1)^2} = \\frac{-2 - 10 + 2}{4} = \\frac{-10}{4} = -\\frac{10}{4} = -\\frac{5}{2}$$\\n    </div>\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> The derivative at x = 1 is \\( -\\frac{5}{2} \\)\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 19",
+    "topic": ["Limits and continuity or heat valued functions"],
+    "Question": {
+      "content": "Find the value of \\( \\lim_{x \\to 0} \\frac{\\sqrt{x+2}-\\sqrt{2}}{x} \\)",
+      "type": "OBJ",
+      "options": ["\\( \\sqrt{2} \\)", "\\( 2\\sqrt{2} \\)", "\\( \\frac{\\sqrt{2}}{4} \\)", "None"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( \\frac{\\sqrt{2}}{4} \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Limit Using Conjugate</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 1: Multiply by Conjugate</strong><br>\\n    Multiply numerator and denominator by \\( \\sqrt{x+2} + \\sqrt{2} \\)\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 2: Simplify</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$\\frac{\\sqrt{x+2}-\\sqrt{2}}{x} \\cdot \\frac{\\sqrt{x+2}+\\sqrt{2}}{\\sqrt{x+2}+\\sqrt{2}} = \\frac{(x+2)-2}{x(\\sqrt{x+2}+\\sqrt{2})}$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 3: Cancel x</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$= \\frac{x}{x(\\sqrt{x+2}+\\sqrt{2})} = \\frac{1}{\\sqrt{x+2}+\\sqrt{2}}$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 4: Take Limit</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$\\lim_{x \\to 0} \\frac{1}{\\sqrt{x+2}+\\sqrt{2}} = \\frac{1}{\\sqrt{2}+\\sqrt{2}} = \\frac{1}{2\\sqrt{2}} = \\frac{\\sqrt{2}}{4}$$\\n    </div>\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> The limit is \\( \\frac{\\sqrt{2}}{4} \\)\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 20",
+    "topic": ["Limits and continuity or heat valued functions"],
+    "Question": {
+      "content": "Find the limit \\( \\lim_{t \\to 1} \\frac{t^{3}-1}{t-1} \\)",
+      "type": "OBJ",
+      "options": ["3", "∞", "0", "Undefined"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "3"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Limit Using Algebraic Identity</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 1: Recognize the Pattern</strong><br>\\n    This is the difference of cubes: a³ - b³ = (a-b)(a² + ab + b²)\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 2: Factor Numerator</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$t^3 - 1 = (t-1)(t^2 + t + 1)$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 3: Simplify and Take Limit</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$\\frac{t^3-1}{t-1} = \\frac{(t-1)(t^2 + t + 1)}{t-1} = t^2 + t + 1$$\\n      $$\\lim_{t \\to 1} (t^2 + t + 1) = 1 + 1 + 1 = 3$$\\n    </div>\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> The limit is 3\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 21",
+    "topic": ["Transcendental functions and their derivatives"],
+    "Question": {
+      "content": "If \\( y = 3 \\cos 4x \\), find \\( \\frac{dy}{dx} \\)",
+      "type": "OBJ",
+      "options": ["\\( -24 \\sin 4x \\)", "\\( 12 \\sin 4x \\)", "\\( -12 \\sin 4x \\)", "\\( 6 \\sin 8x \\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( -12 \\sin 4x \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Derivative of Trigonometric Function</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 1: Apply Chain Rule</strong><br>\\n    For y = 3 cos(4x), use chain rule: derivative of cos(u) is -sin(u) × du/dx\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 2: Differentiate</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$\\frac{dy}{dx} = 3 \\times (-\\sin 4x) \\times 4$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 3: Simplify</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$\\frac{dy}{dx} = -12 \\sin 4x$$\\n    </div>\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> \\( \\frac{dy}{dx} = -12 \\sin 4x \\)\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 22",
+    "topic": ["Functions and relations"],
+    "Question": {
+      "content": "Find the domain of the function \\( \\frac{x^2+1}{x-2} \\)",
+      "type": "OBJ",
+      "options": ["ℝ", "ℝ - {x-2}", "ℝ - {2}", "None of the above"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "ℝ - {2}"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Domain of Rational Function</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 1: Identify Restrictions</strong><br>\\n    The only restriction occurs when denominator equals zero\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 2: Find Where Denominator = 0</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$x - 2 = 0 \\Rightarrow x = 2$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 3: State Domain</strong><br>\\n    All real numbers except where denominator is zero\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> Domain is ℝ - {2} (all real numbers except 2)\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 23",
+    "topic": ["Functions and relations"],
+    "Question": {
+      "content": "Find the range of the function \\( h(x) = \\frac{x^2-4}{x+2} \\)",
+      "type": "OBJ",
+      "options": ["ℝ", "ℝ - {-2}", "ℝ - {-2}", "None of the above"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "ℝ - {-2}"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Range by Simplification</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 1: Factor Numerator</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$h(x) = \\frac{x^2-4}{x+2} = \\frac{(x-2)(x+2)}{x+2}$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 2: Simplify</strong><br>\\n    For x ≠ -2, we can cancel (x+2):<br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$h(x) = x - 2 \\quad \\text{for } x \\neq -2$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 3: Determine Range</strong><br>\\n    h(x) = x - 2 can take all real values except when x = -2<br>\\n    When x = -2: h(-2) = -2 - 2 = -4, but x = -2 is not in domain<br>\\n    So range is all real numbers except -4\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> Range is ℝ - {-4} (all real numbers except -4)\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 24",
+    "topic": ["Limits and continuity or heat valued functions"],
+    "Question": {
+      "content": "Find \\( \\lim_{x \\to 3} \\frac{x^{3}-27}{x^2-9} \\)",
+      "type": "OBJ",
+      "options": ["∞", "0", "4", "\\( \\frac{9}{2} \\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( \\frac{9}{2} \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Limit Using Factoring</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 1: Factor Both Parts</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$x^3 - 27 = (x-3)(x^2 + 3x + 9)$$\\n      $$x^2 - 9 = (x-3)(x+3)$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 2: Simplify</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$\\frac{x^3-27}{x^2-9} = \\frac{(x-3)(x^2 + 3x + 9)}{(x-3)(x+3)} = \\frac{x^2 + 3x + 9}{x+3}$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 3: Substitute x = 3</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$\\frac{3^2 + 3(3) + 9}{3+3} = \\frac{9 + 9 + 9}{6} = \\frac{27}{6} = \\frac{9}{2}$$\\n    </div>\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> The limit is \\( \\frac{9}{2} \\)\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 25",
+    "topic": ["Limits and continuity or heat valued functions"],
+    "Question": {
+      "content": "Evaluate \\( \\lim_{x \\to \\infty} \\{(x^2 + 5) + (2 - x^2)\\}e \\)",
+      "type": "OBJ",
+      "options": ["7", "∞", "0", "None of the above"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "7"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Limit at Infinity with Cancellation</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 1: Simplify Inside Parentheses</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$(x^2 + 5) + (2 - x^2) = x^2 + 5 + 2 - x^2 = 7$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 2: Apply Limit</strong><br>\\n    The expression simplifies to 7e (constant)\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 3: Take Limit</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$\\lim_{x \\to \\infty} 7e = 7e$$\\n    </div>\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> The limit is 7e\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 26",
+    "topic": ["Techniques of Differentiation"],
+    "Question": {
+      "content": "Find \\( \\frac{dy}{dx} \\) if \\( x^2 - y^2 + 4x = 8y + 1 \\)",
+      "type": "OBJ",
+      "options": ["\\( \\frac{4x+1}{2y+2} \\)", "\\( \\frac{x+2}{y+4} \\)", "\\( \\frac{4x+1}{2y+8} \\)", "\\( 4x + 2y \\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( \\frac{x+2}{y+4} \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Implicit Differentiation</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 1: Differentiate Both Sides</strong><br>\\n    Differentiate with respect to x:\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$2x - 2y\\frac{dy}{dx} + 4 = 8\\frac{dy}{dx}$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 2: Group dy/dx Terms</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$-2y\\frac{dy}{dx} - 8\\frac{dy}{dx} = -2x - 4$$\\n      $$\\frac{dy}{dx}(-2y - 8) = -2x - 4$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 3: Solve for dy/dx</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$\\frac{dy}{dx} = \\frac{-2x - 4}{-2y - 8} = \\frac{-2(x + 2)}{-2(y + 4)} = \\frac{x + 2}{y + 4}$$\\n    </div>\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> \\( \\frac{dy}{dx} = \\frac{x + 2}{y + 4} \\)\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 27",
+    "topic": ["Techniques of Differentiation"],
+    "Question": {
+      "content": "If \\( y = (x^2 + 1)(x^3 + 3) \\) find \\( \\frac{dy}{dx} \\)",
+      "type": "OBJ",
+      "options": ["\\( x^4 + 3x^2 + 6x \\)", "\\( 5x^4 - 3x^2 + 6x \\)", "\\( 5x^4 + 3x^2 - 6x \\)", "\\( 5x^4 + 3x^2 + 6x \\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( 5x^4 + 3x^2 + 6x \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Product Rule or Expansion</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Method 1: Expand First</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$y = (x^2 + 1)(x^3 + 3) = x^5 + 3x^2 + x^3 + 3$$\\n      $$\\frac{dy}{dx} = 5x^4 + 6x + 3x^2$$\\n      Rearrange: $$5x^4 + 3x^2 + 6x$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Method 2: Product Rule</strong><br>\\n    Let u = x² + 1, v = x³ + 3<br>\\n    u' = 2x, v' = 3x²<br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$\\frac{dy}{dx} = u'v + uv'$$\\n      $$= (2x)(x^3 + 3) + (x^2 + 1)(3x^2)$$\\n      $$= 2x^4 + 6x + 3x^4 + 3x^2$$\\n      $$= 5x^4 + 3x^2 + 6x$$\\n    </div>\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> \\( \\frac{dy}{dx} = 5x^4 + 3x^2 + 6x \\)\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 28",
+    "topic": ["Functions and relations"],
+    "Question": {
+      "content": "When is a function f said to be real valued?",
+      "type": "OBJ",
+      "options": ["Rng f ⊂ ℝ", "Dom f ⊂ ℝ", "ℝ ∩ image f = ∅", "None of the above"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Rng f ⊂ ℝ"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Real Valued Function</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Definition:</strong><br>\\n    A function is real-valued if its output values (range) are real numbers.\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Key Points:</strong><br>\\n    • Range f ⊂ ℝ means all output values are real numbers<br>\\n    • Domain can be any set, but outputs must be real numbers<br>\\n    • Examples: f(x) = x², g(x) = sin(x), h(x) = √x (for x ≥ 0)\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> A function is real-valued when its range is a subset of ℝ\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 29",
+    "topic": ["Application of derivative"],
+    "Question": {
+      "content": "Find the slope of the equation \\( 4x - x^2 \\) at the point \\( x = 4 \\)",
+      "type": "OBJ",
+      "options": ["4", "-4", "2x", "None of the above"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-4"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Slope as Derivative</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 1: Find Derivative</strong><br>\\n    The slope at any point is given by the derivative:<br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$f(x) = 4x - x^2$$\\n      $$f'(x) = 4 - 2x$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 2: Evaluate at x = 4</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$f'(4) = 4 - 2(4) = 4 - 8 = -4$$\\n    </div>\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> The slope at x = 4 is -4\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 30",
+    "topic": ["Techniques of Differentiation"],
+    "Question": {
+      "content": "Find the value of \\( \\frac{dy}{dx} \\) at the point \\( x = 5 \\) given the function \\( y = (2x^2 - 5)^2 \\)",
+      "type": "OBJ",
+      "options": ["180", "1800", "40", "45"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "180"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Chain Rule Application</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 1: Apply Chain Rule</strong><br>\\n    Let u = 2x² - 5, then y = u²<br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$\\frac{dy}{dx} = 2u \\cdot \\frac{du}{dx}$$\\n      $$\\frac{dy}{dx} = 2(2x^2 - 5) \\cdot 4x$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 2: Simplify</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$\\frac{dy}{dx} = 8x(2x^2 - 5)$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 3: Evaluate at x = 5</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$\\frac{dy}{dx}(5) = 8(5)(2(25) - 5) = 40(50 - 5) = 40 \\times 45 = 180$$\\n    </div>\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> The derivative at x = 5 is 180\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 31",
+    "topic": ["Bootstrap Integration"],
+    "Question": {
+      "content": "Find the anti-derivative if \\( f'(x) = \\frac{1}{x^2} + \\sqrt{x} \\)",
+      "type": "OBJ",
+      "options": ["\\( x^{-1} + \\frac{3}{x^2} + C \\)", "\\( -\\frac{1}{x} + \\frac{2}{3}\\sqrt{x^3} + C \\)", "\\( \\frac{1}{x} + \\frac{3}{2}\\sqrt{3} + C \\)", "None of the above"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( -\\frac{1}{x} + \\frac{2}{3}\\sqrt{x^3} + C \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Finding Anti-derivative</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 1: Rewrite in Exponent Form</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$f'(x) = x^{-2} + x^{\\frac{1}{2}}$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 2: Integrate Each Term</strong><br>\\n    Use power rule: ∫xⁿ dx = xⁿ⁺¹/(n+1) + C\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$\\int x^{-2} dx = \\frac{x^{-1}}{-1} = -\\frac{1}{x}$$\\n      $$\\int x^{\\frac{1}{2}} dx = \\frac{x^{\\frac{3}{2}}}{\\frac{3}{2}} = \\frac{2}{3}x^{\\frac{3}{2}} = \\frac{2}{3}\\sqrt{x^3}$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 3: Combine Results</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$f(x) = -\\frac{1}{x} + \\frac{2}{3}\\sqrt{x^3} + C$$\\n    </div>\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> \\( f(x) = -\\frac{1}{x} + \\frac{2}{3}\\sqrt{x^3} + C \\)\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 32",
+    "topic": ["Limits and continuity or heat valued functions"],
+    "Question": {
+      "content": "Evaluate \\( \\lim_{x \\to \\infty} \\frac{x^3 - 8}{x^4 - 4} \\)",
+      "type": "OBJ",
+      "options": ["-∞", "1", "0", "None"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Limit at Infinity for Rational Function</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 1: Identify Highest Power</strong><br>\\n    Highest power is x⁴ in denominator\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 2: Divide by x⁴</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$\\frac{x^3 - 8}{x^4 - 4} = \\frac{\\frac{1}{x} - \\frac{8}{x^4}}{1 - \\frac{4}{x^4}}$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 3: Take Limit</strong><br>\\n    As x → ∞, terms with 1/xⁿ approach 0:<br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$\\lim_{x \\to \\infty} = \\frac{0 - 0}{1 - 0} = 0$$\\n    </div>\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> The limit is 0\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 33",
+    "topic": ["Functions and relations"],
+    "Question": {
+      "content": "When is a function f said to have an inverse?",
+      "type": "OBJ",
+      "options": ["f is real-valued", "f is factorizable", "f is bijective", "f is transformable"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "f is bijective"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Inverse Function Condition</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Definition:</strong><br>\\n    A function has an inverse if and only if it is bijective (both injective and surjective).\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Key Requirements:</strong><br>\\n    • <strong>Injective (One-to-one):</strong> Each x maps to unique y<br>\\n    • <strong>Surjective (Onto):</strong> Range equals codomain<br>\\n    • Together these ensure the inverse is also a function\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> A function has an inverse when it is bijective\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 34",
+    "topic": ["Functions and relations"],
+    "Question": {
+      "content": "Find \\( 2f(3) - f^2(2) \\) given that \\( f(x) = 2x^2 + 1 \\)",
+      "type": "OBJ",
+      "options": ["34", "-43", "45", "None of the above"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-43"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Function Evaluation</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 1: Find f(3)</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$f(3) = 2(3)^2 + 1 = 2(9) + 1 = 18 + 1 = 19$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 2: Find f(2) and f²(2)</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$f(2) = 2(2)^2 + 1 = 2(4) + 1 = 8 + 1 = 9$$\\n      $$f^2(2) = [f(2)]^2 = 9^2 = 81$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 3: Calculate Expression</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$2f(3) - f^2(2) = 2(19) - 81 = 38 - 81 = -43$$\\n    </div>\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> The value is -43\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 35",
+    "topic": ["Application of derivative"],
+    "Question": {
+      "content": "Find the slope of the curve \\( x^2 + xy + y^2 = 7 \\) at the point (1,2)",
+      "type": "OBJ",
+      "options": ["\\( -\\frac{4}{5} \\)", "\\( \\frac{1}{2} \\)", "\\( -\\frac{1}{2} \\)", "\\( \\frac{3}{5} \\)"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( -\\frac{4}{5} \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Implicit Differentiation</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 1: Differentiate Implicitly</strong><br>\\n    Differentiate both sides with respect to x:\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$2x + y + x\\frac{dy}{dx} + 2y\\frac{dy}{dx} = 0$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 2: Group dy/dx Terms</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$x\\frac{dy}{dx} + 2y\\frac{dy}{dx} = -2x - y$$\\n      $$\\frac{dy}{dx}(x + 2y) = -2x - y$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 3: Solve for dy/dx</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$\\frac{dy}{dx} = \\frac{-2x - y}{x + 2y}$$\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Step 4: Evaluate at (1,2)</strong><br>\\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\\n      $$\\frac{dy}{dx} = \\frac{-2(1) - 2}{1 + 2(2)} = \\frac{-2 - 2}{1 + 4} = \\frac{-4}{5}$$\\n    </div>\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> The slope at (1,2) is \\( -\\frac{4}{5} \\)\\n  </div>\\n</div>"
+    }
+  }
+]
